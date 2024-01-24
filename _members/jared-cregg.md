@@ -6,7 +6,7 @@ aliases:
   - J. Cregg
   - J Cregg
 links:
-  home-page: https://jmcregg.githug.io
+  home-page: https://jmcregg.github.io
   orcid: 0000-0002-0027-9748
 ---
 
