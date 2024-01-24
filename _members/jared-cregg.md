@@ -1,13 +1,13 @@
 ---
-name: Jane Smith
-image: images/photo.jpg
+name: Jared Cregg
+image: images/jared.jpg
 role: pi
 aliases:
-  - J. Smith
-  - J Smith
+  - J. Cregg
+  - J Cregg
 links:
-  home-page: https://janesmith.com
-  orcid: 0000-0001-8713-9213
+  home-page: https://jmcregg.githug.io
+  orcid: 0000-0002-0027-9748
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
