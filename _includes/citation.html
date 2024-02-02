@@ -1,5 +1,5 @@
 {% if include.lookup %}
-  {% assign citation = site.publications | where_exp: "item", "item.title == include.lookup or item.paperurl == include.lookup" | first %}
+  {% assign citation = site.publications | where_exp: "item", "item.title == include.lookup" | first %}
 {% else %}
   {% assign citation = include %}
 {% endif %}
