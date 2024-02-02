@@ -12,7 +12,7 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 
 {% include section.html %}
 
-## Highlighted
+## Selected Publications
 
 {% for post in site.publications reversed %}
   {% if post.special2 %}
@@ -22,7 +22,7 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 
 {% include section.html %}
 
-## All
+## All Publications
 
 {% include search-box.html %}
 
