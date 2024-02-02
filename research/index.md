@@ -14,7 +14,11 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 
 ## Highlighted
 
-{% include citation.html lookup="Open collaborative writing with Manubot" style="rich" %}
+{% for post in site.publications reversed %}
+      {% if post.special2 %}
+     {% include citation.html style="rich" %}
+  {% endif %}
+{% endfor %}
 
 {% include section.html %}
 
