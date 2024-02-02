@@ -7,6 +7,7 @@ nav:
 
 {{ site.publications | size }}
 {{ site.members | size }}
+{{ site.papers | size }}
 
 # {% include icon.html icon="fa-solid fa-microscope" %}Research
 
