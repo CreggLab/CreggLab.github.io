@@ -43,7 +43,8 @@ collections:
     output: true
   publications:
     output: true
-
+    permalink: /:collection/:path/
+    
 # jekyll plugins
 plugins:
   - jekyll-spaceship
