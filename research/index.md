@@ -16,7 +16,7 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 
 {% for post in site.publications reversed %}
   {% if post.special2 %}
-    {% include citation.html lookup=post.title style="rich" %}
+    {% include citation.html citation=post style="rich" %}
   {% endif %}
 {% endfor %}
 
