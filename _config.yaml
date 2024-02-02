@@ -35,15 +35,14 @@ defaults:
       layout: post
 
 collections:
-  # generate page for each member
   members:
     output: true
-  # generate page for each post
+  papers:
+    output: true
   posts:
     output: true
   publications:
     output: true
-    permalink: /:collection/:path/
     
 # jekyll plugins
 plugins:
