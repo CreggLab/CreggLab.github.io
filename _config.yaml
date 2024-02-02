@@ -41,6 +41,8 @@ collections:
   # generate page for each post
   posts:
     output: true
+  publications:
+    output: true
 
 # jekyll plugins
 plugins:
