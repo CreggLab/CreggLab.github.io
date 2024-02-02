@@ -39,9 +39,9 @@ collections:
     output: true
   papers:
     output: true
-  posts:
+  patents:
     output: true
-  publications:
+  posts:
     output: true
     
 # jekyll plugins
