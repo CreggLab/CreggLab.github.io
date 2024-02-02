@@ -1,8 +1,6 @@
-{% if include.lookup %}
-  {% assign citation = site.publications | where_exp: "item", "item.title == include.lookup" | first %}
-{% else %}
-  {% assign citation = include %}
-{% endif %}
+{% assign citation = include.citation %}
+
+<div class="citation">
 
 <div class="citation">
   {% if include.style == "rich" %}
