@@ -31,3 +31,11 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 {% include search-info.html %}
 
 {% include list.html data="citations" component="citation" style="rich" %}
+
+{% include section.html %}
+
+## Patents
+{% for post in site.patents reversed %}
+    {% include citation.html citation=post style="rich" %}
+{% endfor %}
+
