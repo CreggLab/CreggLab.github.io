@@ -23,7 +23,10 @@
     <div class="citation-title">{{ citation.title | default: "[no title info]" }}</div>
 
     <div class="citation-authors">
-      {{ citation.authafter | prepend: ", " | default: "[no author info]" }}
+      {{ citation.authors }}
+        {% if citation.special %}
+        {{ citation.special }}
+        {% endif %}
     </div>
 
     <div class="citation-details">
