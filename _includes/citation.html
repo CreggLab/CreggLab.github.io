@@ -23,9 +23,9 @@
     <div class="citation-title">{{ citation.title | default: "[no title info]" }}</div>
 
     <div class="citation-authors">
-      {{ citation.authors }}
+      {{ citation.authors }}.
         {% if citation.special %}
-        &nbsp;&nbsp;{{ citation.special }}
+        &nbsp;&nbsp;&nbsp;&nbsp;{{ citation.special }}
         {% endif %}
     </div>
 
@@ -35,12 +35,14 @@
       {{ citation.date | default: "[no date info]" | date: "%d %b %Y" }}
     </div>
 
-    {% if include.style == "rich" %}
       {% if citation.pdf %}
         <div class="citation-buttons">
           <a href="{{ citation.pdf }}" target="_blank" class="button">PDF</a>
+          {% if citation.data %}
+          <a href="{{ citation.data }}" target="_blank" class="button">DATA</a>
+          {% endif %}
         </div>
       {% endif %}
-    {% endif %}
+    
   </div>
 </div>
