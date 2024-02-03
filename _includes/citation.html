@@ -25,7 +25,7 @@
     <div class="citation-authors">
       {{ citation.authors }}
         {% if citation.special %}
-        {{ citation.special }}
+        &nbsp;&nbsp;{{ citation.special }}
         {% endif %}
     </div>
 
@@ -36,12 +36,6 @@
     </div>
 
     {% if include.style == "rich" %}
-      {% if citation.special2 %}
-        <div class="citation-description">
-          {{ citation.special2 | markdownify }}
-        </div>
-      {% endif %}
-
       {% if citation.pdf %}
         <div class="citation-buttons">
           <a href="{{ citation.pdf }}" target="_blank" class="button">PDF</a>
