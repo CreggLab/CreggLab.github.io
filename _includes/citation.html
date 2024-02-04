@@ -24,8 +24,11 @@
 
     <div class="citation-authors">
       {{ citation.authors }}
-      &nbsp; · &nbsp;
-       {{ citation.venue | default: "[no venue info]" }}
+      {% if citation.special %}
+       &nbsp; · &nbsp;
+        {{ citation.special }}
+      {% endif %}
+      <br>{{ citation.venue | default: "[no venue info]" }}
       &nbsp; · &nbsp;
       {{ citation.date | default: "[no date info]" | date: "%d %b %Y" }}
         {% if citation.special %}
