@@ -5,7 +5,7 @@
 */
 {
   // elements to filter
-  const elementSelector = ".card, .citation, .post-excerpt";
+  const elementSelector = "#all-publications .card, #all-publications .citation, #all-publications .post-excerpt";
   // search box element
   const searchBoxSelector = ".search-box";
   // results info box element
