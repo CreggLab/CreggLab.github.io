@@ -5,8 +5,6 @@ nav:
   tooltip: Published works
 ---
 
-{{ site.papers | size }}
-
 # {% include icon.html icon="fa-solid fa-microscope" %}Research
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
