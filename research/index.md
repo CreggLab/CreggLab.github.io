@@ -22,6 +22,8 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 
 {% include section.html %}
 
+{% include button.html icon="fa-solid fa-book-open" text="More on PubMed" link="https://pubmed.ncbi.nlm.nih.gov/?term=jared%20cregg" %} {% include button.html icon="fa-brands fa-google" text="More on Google Scholar" link="http://scholar.google.com/citations?hl=en&user=g267xwoAAAAJ&hl" %}
+
 ## All Publications
 
 <div id="all-publications"> <!-- Start of All Publications div -->
