@@ -22,14 +22,16 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 
 {% include section.html %}
 
-<div id="all-publications"> <!-- Start of All Publications div -->
-  ## All Publications
+## All Publications
 
+<div id="all-publications"> <!-- Start of All Publications div -->
+  
   {% include search-box.html %}
 
   {% include search-info.html %}
 
-  {% include list.html data="citations" component="citation" style="rich" %}
+  {% include list2.html data="citations" component="citation" style="rich" %}
+  
 </div> <!-- End of All Publications div -->
 
 {% include section.html %}
