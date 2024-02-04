@@ -12,16 +12,6 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 
 {% include section.html %}
 
-## Selected Publications
-
-{% for post in site.papers reversed %}
-  {% if post.special2 %}
-    {% include citation.html citation=post style="rich" %}
-  {% endif %}
-{% endfor %}
-
-{% include section.html %}
-
 {% include button.html icon="fa-solid fa-book-open" text="More on PubMed" link="https://pubmed.ncbi.nlm.nih.gov/?term=jared%20cregg" %} {% include button.html icon="fa-brands fa-google" text="More on Google Scholar" link="http://scholar.google.com/citations?hl=en&user=g267xwoAAAAJ&hl" %}
 
 ## All Publications
@@ -31,6 +21,8 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
   {% include search-box.html %}
 
   {% include search-info.html %}
+
+  {% include tags.html tags="highlighted,locomotion,patents,respiration,spinal cord injury" %}
 
   {% include list2.html data="citations" component="citation" style="rich" %}
   
