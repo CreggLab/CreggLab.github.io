@@ -3,16 +3,18 @@
 {% assign years = data | group_by_exp: "item", "item.date | date: '%Y'" %}
 
 {% for year in years %}
-  <h3 id="{{ year.name }}">{{ year.name }}</h3>
-  {% assign year_papers = year.items | sort: "date" | reverse %}
-  
-  {% for paper in year_papers %}
-    {% assign style = paper.style | default: include.style %}
+  <div class="year-section" data-year="{{ year.name }}"> <!-- Wrap each year's publications in a div -->
+    <h3>{{ year.name }}</h3> <!-- Year header inside the div -->
+    {% assign year_papers = year.items | sort: "date" | reverse %}
+    
+    {% for paper in year_papers %}
+      {% assign style = paper.style | default: include.style %}
 
-    {%
-      include citation.html
-      citation=paper
-      style=style
-    %}
-  {% endfor %}
+      {%
+        include citation.html
+        citation=paper
+        style=style
+      %}
+    {% endfor %}
+  </div> <!-- Close the year-section div -->
 {% endfor %}
