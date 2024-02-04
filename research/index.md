@@ -22,13 +22,15 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 
 {% include section.html %}
 
-## All Publications
+<div id="all-publications"> <!-- Start of All Publications div -->
+  ## All Publications
 
-{% include search-box.html %}
+  {% include search-box.html %}
 
-{% include search-info.html %}
+  {% include search-info.html %}
 
-{% include list.html data="citations" component="citation" style="rich" %}
+  {% include list.html data="citations" component="citation" style="rich" %}
+</div> <!-- End of All Publications div -->
 
 {% include section.html %}
 
@@ -36,4 +38,5 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 {% for post in site.patents reversed %}
     {% include citation.html citation=post style="rich" %}
 {% endfor %}
+
 
