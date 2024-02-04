@@ -74,23 +74,39 @@
 
   // loop through elements, hide/show based on query, and return results info
   const filterElements = (parts) => {
-    let elements = document.querySelectorAll(elementSelector);
+  let elements = document.querySelectorAll(elementSelector);
 
-    // results info
-    let x = 0;
-    let n = elements.length;
-    let tags = parts.tags;
+  // results info
+  let x = 0;
+  let n = elements.length;
+  let tags = parts.tags;
 
-    // filter elements
-    for (const element of elements) {
-      if (elementMatches(element, parts)) {
-        element.style.display = "";
-        x++;
-      } else element.style.display = "none";
+  // filter elements
+  for (const element of elements) {
+    if (elementMatches(element, parts)) {
+      element.style.display = "";
+      x++;
+    } else element.style.display = "none";
+  }
+
+  // Loop through each year section after filtering
+  document.querySelectorAll('.year-section').forEach(section => {
+    // Initially hide the year section
+    section.style.display = 'none';
+
+    // Check if the section contains any visible citations
+    const hasVisibleCitations = [...section.querySelectorAll('.citation')].some(citation => {
+      return citation.style.display !== 'none'; // Check if the citation is visible
+    });
+
+    // If there are visible citations, show the section
+    if (hasVisibleCitations) {
+      section.style.display = 'block';
     }
+  });
 
-    return [x, n, tags];
-  };
+  return [x, n, tags];
+};
 
   // highlight search terms
   const highlightMatches = async ({ terms, phrases }) => {
