@@ -230,13 +230,18 @@
   window.addEventListener("tagsfetched", searchFromUrl);
 }
 
-function performTagSearch(tag) {
-  const searchTerm = `tag: "${tag}"`; // Format the search term
-  const searchInput = document.querySelector('.search-input');
-  
-  // Set the search input value and trigger the search
-  if (searchInput) {
-    searchInput.value = searchTerm;
-    window.onSearchInput(searchInput); // Assuming onSearchInput can handle the input element directly
-  }
-}
+document.addEventListener('DOMContentLoaded', function() {
+  document.querySelectorAll('.search-tag').forEach(tag => {
+    tag.addEventListener('click', function() {
+      const searchTerm = `tag: "${this.dataset.searchTerm}"`; // Format search term
+      const searchInput = document.querySelector('.search-input');
+      
+      // Set the search input value and trigger the search
+      if (searchInput) {
+        searchInput.value = searchTerm;
+        window.onSearchInput(searchInput); // Trigger the search
+      }
+    });
+  });
+});
+
