@@ -96,7 +96,7 @@
 
     // Check if the section contains any visible citations
     const hasVisibleCitations = [...section.querySelectorAll('.citation')].some(citation => {
-      return citation.style.display !== 'none'; // Check if the citation is visible
+      return window.getComputedStyle(citation).display !== 'none';
     });
 
     // If there are visible citations, show the section
