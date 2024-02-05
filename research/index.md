@@ -12,8 +12,6 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 
 {% include section.html %}
 
-{% include button.html icon="fa-solid fa-book-open" text="More on PubMed" link="https://pubmed.ncbi.nlm.nih.gov/?term=jared%20cregg" %} {% include button.html icon="fa-brands fa-google" text="More on Google Scholar" link="http://scholar.google.com/citations?hl=en&user=g267xwoAAAAJ&hl" %}
-
 ## Publications
 
 <div id="all-publications"> <!-- Start of All Publications div -->
@@ -22,9 +20,10 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 
   {% include search-info.html %}
 
-  {% include tags.html tags="highlighted,locomotion,patents,respiration,spinal cord injury" %}
+  {% include tags.html tags="highlighted,patents,locomotion,basal ganglia,Parkinson's disease,respiration,spinal cord injury" %}
 
   {% include list2.html data="citations" component="citation" style="rich" %}
   
 </div> <!-- End of All Publications div -->
 
+{% include button.html icon="fa-solid fa-book-open" text="More on PubMed" link="https://pubmed.ncbi.nlm.nih.gov/?term=jared%20cregg" %} {% include button.html icon="fa-brands fa-google" text="More on Google Scholar" link="http://scholar.google.com/citations?hl=en&user=g267xwoAAAAJ&hl" %}
