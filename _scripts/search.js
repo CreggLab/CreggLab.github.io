@@ -20,9 +20,9 @@ const splitQuery = (query) => {
     const tags = [];
 
     for (let part of parts) {
-        if (part.startsWith('"tag:')) {
+        if (part.includes('tag:')) {
             // Extract the tag name by removing "tag:" prefix and surrounding quotes
-            const tag = part.replace(/"tag:\s*/, '').replace(/"$/, '');
+            const tag = part.replace(/tag:\s*/i, '').replaceAll('"', '');
             tags.push(normalizeTag(tag));
         } else if (part.startsWith('"')) {
             // Handle phrases enclosed in quotes
@@ -36,8 +36,6 @@ const splitQuery = (query) => {
     console.log('Split query:', {terms, phrases, tags}); // Debugging line
     return { terms, phrases, tags };
 };
-
-
 
   // Normalize tag string for comparison
   window.normalizeTag = (tag) => tag.trim().toLowerCase().replaceAll(/-|\s+/g, " ");
