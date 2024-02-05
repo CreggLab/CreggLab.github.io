@@ -94,17 +94,21 @@ document.addEventListener('DOMContentLoaded', function() {
 
   const debouncedRunSearch = debounce(runSearch, 300);
 
+  const runSearchImmediately = (query) => {
+  runSearch(query); // Directly run the search without debounce
+  updateUrl(query); // Update the URL with the search query
+};
+
   // Event listeners
   searchBox.addEventListener('input', (event) => {
     debouncedRunSearch(event.target.value);
   });
   
-  // Handle tag button clicks
-  document.querySelectorAll('.search-tag').forEach(tag => {
-    tag.addEventListener('click', function() {
-      const searchTerm = `tag: "${this.dataset.searchTerm}"`;
-      searchBox.value = searchTerm; // Set the search term in the search box
-      debouncedRunSearch(searchTerm); // Explicitly trigger the search
+document.querySelectorAll('.search-tag').forEach(tag => {
+  tag.addEventListener('click', function() {
+    const searchTerm = `tag: "${this.dataset.searchTerm}"`;
+    searchBox.value = searchTerm; // Set the search term in the search box
+    runSearchImmediately(searchTerm); // Use runSearchImmediately to trigger the search immediately
   });
 });
 
