@@ -122,13 +122,3 @@
     });
   });
 }
-
-function performTagSearch(tag) {
-  const searchTerm = `tag: "${tag}"`; // Format the search term for tag searches
-  const searchInput = document.querySelector('.search-input');
-
-  if (searchInput) {
-    searchInput.value = searchTerm;
-    window.onSearchInput(searchInput); // Make sure this triggers the search
-  }
-}
