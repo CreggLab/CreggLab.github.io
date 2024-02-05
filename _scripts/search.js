@@ -102,11 +102,7 @@
   const searchFromUrl = () => {/* Implementation remains the same */};
   const debounce = (callback, delay = 250) => {/* Implementation remains the same */};
   const debouncedRunSearch = debounce(runSearch, 1000);
-  window.onSearchInput = (input) => {
-  const query = input instanceof Event ? input.target.value : input.value;
-  debouncedRunSearch(query);
-  updateUrl(query);
-  };
+  window.onSearchInput = (target) => {/* Implementation remains the same */};
   window.onSearchClear = () => {/* Implementation remains the same */};
 
   // After page loads
@@ -126,4 +122,3 @@
     });
   });
 }
-
