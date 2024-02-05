@@ -13,30 +13,29 @@
   // Tags element
   const tagSelector = ".tag";
 
-  const splitQuery = (query) => {
+const splitQuery = (query) => {
     const parts = query.match(/"[^"]*"|\S+/g) || [];
     const terms = [];
     const phrases = [];
     const tags = [];
 
     for (let part of parts) {
-      if (part.startsWith('"')) {
-        // Remove surrounding quotes
-        part = part.replaceAll('"', "").trim();
-        if (part.startsWith("tag:")) {
-          // Remove "tag: " prefix and normalize the tag for comparison
-          tags.push(normalizeTag(part.replace("tag: ", "")));
+        if (part.startsWith('"') && part.includes('tag:')) {
+            // Remove surrounding quotes and "tag: " prefix
+            const tag = part.replace(/"tag:\s*/, '').replace(/"$/, '');
+            tags.push(normalizeTag(tag));
+        } else if (part.startsWith('"')) {
+            // Remove surrounding quotes for phrases
+            phrases.push(part.replaceAll('"', '').toLowerCase());
         } else {
-          phrases.push(part.toLowerCase());
+            terms.push(part.toLowerCase());
         }
-      } else {
-        terms.push(part.toLowerCase());
-      }
     }
 
-    console.log('Split query:', {terms, phrases, tags}); // Debugging line
+    console.log('Split query:', {terms, phrases, tags});
     return { terms, phrases, tags };
-  };
+};
+
 
   // Normalize tag string for comparison
   window.normalizeTag = (tag) => tag.trim().toLowerCase().replaceAll(/-|\s+/g, " ");
