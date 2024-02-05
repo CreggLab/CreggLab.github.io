@@ -51,28 +51,23 @@ const splitQuery = (query) => {
 
   // determine if element should show up in results based on query
   const elementMatches = (element, { terms, phrases, tags }) => {
-    // tag elements within element
-    const tagElements = [...element.querySelectorAll(".tag")];
+  // Extract text and tags for the element
+  const elementText = element.innerText.toLowerCase() + getAttr(element, "tags").join(" ").toLowerCase();
 
-    // check if text content exists in element
-    const hasText = (string) =>
-      (
-        element.innerText +
-        getAttr(element, "tooltip") +
-        getAttr(element, "search")
-      )
-        .toLowerCase()
-        .includes(string);
-    // check if text matches a tag in element
-    const hasTag = (tag) => getAttr(element, "tags").includes(tag);
+  // Check if text content matches terms and phrases
+  const hasText = (string) => elementText.includes(string.toLowerCase());
 
-    // match logic
-    return (
-      (terms.every(hasText) || !terms.length) &&
-      (phrases.some(hasText) || !phrases.length) &&
-      (tags.some(hasTag) || !tags.length)
-    );
-  };
+  // Check if any of the search tags are included in the element's tags
+  const hasTag = (tag) => getAttr(element, "tags").includes(tag.toLowerCase());
+
+  // Match logic: terms and phrases should match in text, and at least one tag should match if tags are specified in the search
+  return (
+    (terms.every(hasText) || !terms.length) &&
+    (phrases.some(hasText) || !phrases.length) &&
+    (tags.length === 0 || tags.some(hasTag))
+  );
+};
+
 
   // loop through elements, hide/show based on query, and return results info
   const filterElements = (parts) => {
