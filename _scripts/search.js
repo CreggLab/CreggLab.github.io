@@ -250,13 +250,13 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 function performTagSearch(tag) {
-    const searchTerm = `tag: "${tag}"`; // Format the search term for tag searches
-    console.log(`Performing tag search for: ${searchTerm}`); // Debugging line
+    const searchTerm = `tag: "${tag}"`; // Correctly format the search term
+    console.log(`Performing tag search for: ${searchTerm}`);
     const searchInput = document.querySelector('.search-input');
 
     if (searchInput) {
         searchInput.value = searchTerm;
-        console.log(`Search input set to: ${searchInput.value}`); // Debugging line
-        window.onSearchInput(searchInput.value); // Pass the search term directly
+        console.log(`Search input set to: ${searchInput.value}`);
+        window.onSearchInput(searchInput.value); // Directly pass the search term
     }
 }
