@@ -41,10 +41,11 @@
     tag.trim().toLowerCase().replaceAll(/-|\s+/g, " ");
 
   // get data attribute contents of element and children
-  const getAttr = (element, attr) =>
-    [element, ...element.querySelectorAll(`[data-${attr}]`)]
-      .map((element) => element.dataset[attr])
-      .join(" ");
+  const getAttr = (element, attr) => {
+  return [element, ...element.querySelectorAll(`[data-${attr}]`)]
+    .flatMap((element) => element.dataset[attr] ? element.dataset[attr].split(', ') : [])
+    .map((tag) => normalizeTag(tag));
+};
 
   // determine if element should show up in results based on query
   const elementMatches = (element, { terms, phrases, tags }) => {
@@ -61,8 +62,7 @@
         .toLowerCase()
         .includes(string);
     // check if text matches a tag in element
-    const hasTag = (string) =>
-      tagElements.some((tag) => normalizeTag(tag.innerText) === string);
+    const hasTag = (tag) => getAttr(element, "tags").includes(tag);
 
     // match logic
     return (
