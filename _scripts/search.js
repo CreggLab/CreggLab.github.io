@@ -13,7 +13,7 @@
   // tags element
   const tagSelector = ".tag";
 
-  const splitQuery = (query) => {
+const splitQuery = (query) => {
   const parts = query.match(/"[^"]*"|\S+/g) || [];
   const terms = [];
   const phrases = [];
@@ -21,11 +21,14 @@
 
   for (let part of parts) {
     if (part.startsWith('"')) {
+      // Remove surrounding quotes
       part = part.replaceAll('"', "").trim();
-      if (part.startsWith("tag:"))
-        tags.push(normalizeTag(part.replace(/tag:\s*/, "")));
-      else
+      if (part.startsWith("tag:")) {
+        // Remove "tag: " prefix and normalize the tag for comparison
+        tags.push(normalizeTag(part.replace("tag: ", "")));
+      } else {
         phrases.push(part.toLowerCase());
+      }
     } else {
       terms.push(part.toLowerCase());
     }
@@ -33,6 +36,7 @@
 
   return { terms, phrases, tags };
 };
+
   
   // normalize tag string for comparison
   window.normalizeTag = (tag) =>
