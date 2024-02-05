@@ -102,7 +102,11 @@
   const searchFromUrl = () => {/* Implementation remains the same */};
   const debounce = (callback, delay = 250) => {/* Implementation remains the same */};
   const debouncedRunSearch = debounce(runSearch, 1000);
-  window.onSearchInput = (target) => {/* Implementation remains the same */};
+  window.onSearchInput = (input) => {
+  const query = input instanceof Event ? input.target.value : input.value;
+  debouncedRunSearch(query);
+  updateUrl(query);
+  };
   window.onSearchClear = () => {/* Implementation remains the same */};
 
   // After page loads
@@ -122,3 +126,14 @@
     });
   });
 }
+
+function performTagSearch(tag) {
+  const searchTerm = `tag: "${tag}"`; // Format the search term for tag searches
+  const searchInput = document.querySelector('.search-input');
+
+  if (searchInput) {
+    searchInput.value = searchTerm;
+    window.onSearchInput(searchInput); // Make sure this triggers the search
+  }
+}
+
