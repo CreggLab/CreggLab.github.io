@@ -1,9 +1,9 @@
 ---
 ---
 
-# CreggLab's Website
+# WHERE NEUROSCIENCE AND ENGINEERING MEET
 
-An engaging 1-3 sentence description of your lab.
+In the Cregg Lab, we focus on understanding brainstem circuits and their critical role in motor control. Our team employs cutting-edge techniques to dissect brainstem motor circuits in sophisticated anatomical, molecular, and functional detail. Our work aims to enhance our comprehension of the neural circuitry controlling movement and offer new insights into neurorehabilitation for disorders such as Parkinson’s disease.
 
 {% include section.html %}
 
