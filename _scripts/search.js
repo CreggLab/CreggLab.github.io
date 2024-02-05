@@ -21,15 +21,19 @@ const splitQuery = (query) => {
 
     for (let part of parts) {
         if (part.includes('tag:')) {
+            // Extract the tag name by removing "tag:" prefix and surrounding quotes
             const tag = part.replace(/tag:\s*/i, '').replaceAll('"', '');
             tags.push(normalizeTag(tag));
         } else if (part.startsWith('"')) {
+            // Handle phrases enclosed in quotes
             phrases.push(part.replaceAll('"', '').toLowerCase());
         } else {
+            // Handle standalone terms
             terms.push(part.toLowerCase());
         }
     }
-    console.log('Split query:', {terms, phrases, tags});
+
+    console.log('Split query:', {terms, phrases, tags}); // Debugging line
     return { terms, phrases, tags };
 };
 
@@ -45,22 +49,29 @@ const splitQuery = (query) => {
 
   // Determine if element should show up in results based on query
   const elementMatches = (element, { terms, phrases, tags }) => {
-    const elementTags = getAttr(element, "tags"); // Extract tags from the element
-    console.log(`Tags for element: ${elementTags.join(", ")}`); // Log the tags for debugging
+    // Extract text and tags for the element
+    const elementText = element.innerText.toLowerCase() + " " + getAttr(element, "tags").join(" ").toLowerCase();
 
-    const elementText = element.innerText.toLowerCase() + " " + elementTags.join(" ").toLowerCase();
-    console.log(`Element text and tags for matching: ${elementText}`);
+    console.log(`Element text and tags for matching: ${elementText}`); // Debugging line
 
-    const hasText = (string) => elementText.includes(string.toLowerCase());
-    const hasTag = (tag) => elementTags.includes(tag.toLowerCase());
+    const hasText = (string) => {
+      const result = elementText.includes(string.toLowerCase());
+      console.log(`Checking term '${string}': ${result}`); // Debugging line
+      return result;
+    };
+
+    const hasTag = (tag) => {
+      const result = getAttr(element, "tags").includes(tag.toLowerCase());
+      console.log(`Checking tag '${tag}': ${result}`); // Debugging line
+      return result;
+    };
 
     return (
-        (terms.every(hasText) || !terms.length) &&
-        (phrases.some(hasText) || !phrases.length) &&
-        (tags.length === 0 || tags.some(hasTag))
+      (terms.every(hasText) || !terms.length) &&
+      (phrases.some(hasText) || !phrases.length) &&
+      (tags.length === 0 || tags.some(hasTag))
     );
   };
-
 
   // Loop through elements, hide/show based on query, and return results info
   const filterElements = (parts) => {
@@ -206,11 +217,10 @@ const splitQuery = (query) => {
 
   // when user types into search box
   const debouncedRunSearch = debounce(runSearch, 1000);
-  window.onSearchInput = (input) => {
-    const query = typeof input === 'string' ? input : input.value;
-    const parts = splitQuery(query);
-    filterElements(parts); // Filter elements based on the parsed query parts
-};
+  window.onSearchInput = (target) => {
+    debouncedRunSearch(target.value);
+    updateUrl(target.value);
+  };
 
   // when user clears search box with button
   window.onSearchClear = () => {
@@ -240,13 +250,13 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 function performTagSearch(tag) {
-    const searchTerm = `tag: "${tag}"`; // Correctly format the search term
-    console.log(`Performing tag search for: ${searchTerm}`);
+    const searchTerm = `tag: "${tag}"`; // Format the search term for tag searches
+    console.log(`Performing tag search for: ${searchTerm}`); // Debugging line
     const searchInput = document.querySelector('.search-input');
 
     if (searchInput) {
         searchInput.value = searchTerm;
-        console.log(`Search input set to: ${searchInput.value}`);
-        window.onSearchInput(searchInput.value); // Directly pass the search term
+        console.log(`Search input set to: ${searchInput.value}`); // Debugging line
+        window.onSearchInput(searchInput.value); // Pass the search term directly
     }
 }
