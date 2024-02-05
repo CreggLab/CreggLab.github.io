@@ -13,29 +13,27 @@
   // tags element
   const tagSelector = ".tag";
 
-  // split search query into terms, phrases, and tags
   const splitQuery = (query) => {
-    // split into parts, preserve quotes
-    const parts = query.match(/"[^"]*"|\S+/g) || [];
+  const parts = query.match(/"[^"]*"|\S+/g) || [];
+  const terms = [];
+  const phrases = [];
+  const tags = [];
 
-    // bins
-    const terms = [];
-    const phrases = [];
-    const tags = [];
-
-    // put parts into bins
-    for (let part of parts) {
-      if (part.startsWith('"')) {
-        part = part.replaceAll('"', "").trim();
-        if (part.startsWith("tag:"))
-          tags.push(normalizeTag(part.replace(/tag:\s*/, "")));
-        else phrases.push(part.toLowerCase());
-      } else terms.push(part.toLowerCase());
+  for (let part of parts) {
+    if (part.startsWith('"')) {
+      part = part.replaceAll('"', "").trim();
+      if (part.startsWith("tag:"))
+        tags.push(normalizeTag(part.replace(/tag:\s*/, "")));
+      else
+        phrases.push(part.toLowerCase());
+    } else {
+      terms.push(part.toLowerCase());
     }
+  }
 
-    return { terms, phrases, tags };
-  };
-
+  return { terms, phrases, tags };
+};
+  
   // normalize tag string for comparison
   window.normalizeTag = (tag) =>
     tag.trim().toLowerCase().replaceAll(/-|\s+/g, " ");
@@ -244,3 +242,4 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   });
 });
+
