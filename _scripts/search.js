@@ -235,18 +235,11 @@ const splitQuery = (query) => {
 }
 
 document.addEventListener('DOMContentLoaded', function() {
-  document.querySelectorAll('.search-tag').forEach(tag => {
-    tag.addEventListener('click', function() {
-      const searchTerm = `tag: "${this.dataset.searchTerm}"`; // Format search term
-      const searchInput = document.querySelector('.search-input');
-      
-      // Set the search input value and trigger the search
-      if (searchInput) {
-        searchInput.value = searchTerm;
-        window.onSearchInput(searchInput); // Trigger the search
-      }
+    document.querySelectorAll('.search-tag').forEach(tag => {
+        tag.addEventListener('click', function() {
+            performTagSearch(this.dataset.searchTerm); // Invoke performTagSearch with the tag from data attribute
+        });
     });
-  });
 });
 
 function performTagSearch(tag) {
