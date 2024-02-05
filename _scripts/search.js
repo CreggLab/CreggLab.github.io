@@ -4,106 +4,114 @@
   match if: all terms AND at least one phrase AND at least one tag
 */
 {
-  // elements to filter
+  // Elements to filter
   const elementSelector = "#all-publications .card, #all-publications .citation, #all-publications .post-excerpt";
-  // search box element
+  // Search box element
   const searchBoxSelector = ".search-box";
-  // results info box element
+  // Results info box element
   const infoBoxSelector = ".search-info";
-  // tags element
+  // Tags element
   const tagSelector = ".tag";
 
-const splitQuery = (query) => {
-  const parts = query.match(/"[^"]*"|\S+/g) || [];
-  const terms = [];
-  const phrases = [];
-  const tags = [];
+  const splitQuery = (query) => {
+    const parts = query.match(/"[^"]*"|\S+/g) || [];
+    const terms = [];
+    const phrases = [];
+    const tags = [];
 
-  for (let part of parts) {
-    if (part.startsWith('"')) {
-      // Remove surrounding quotes
-      part = part.replaceAll('"', "").trim();
-      if (part.startsWith("tag:")) {
-        // Remove "tag: " prefix and normalize the tag for comparison
-        tags.push(normalizeTag(part.replace("tag: ", "")));
+    for (let part of parts) {
+      if (part.startsWith('"')) {
+        // Remove surrounding quotes
+        part = part.replaceAll('"', "").trim();
+        if (part.startsWith("tag:")) {
+          // Remove "tag: " prefix and normalize the tag for comparison
+          tags.push(normalizeTag(part.replace("tag: ", "")));
+        } else {
+          phrases.push(part.toLowerCase());
+        }
       } else {
-        phrases.push(part.toLowerCase());
+        terms.push(part.toLowerCase());
       }
-    } else {
-      terms.push(part.toLowerCase());
     }
-  }
 
-  return { terms, phrases, tags };
-};
+    console.log('Split query:', {terms, phrases, tags}); // Debugging line
+    return { terms, phrases, tags };
+  };
 
-  
-  // normalize tag string for comparison
-  window.normalizeTag = (tag) =>
-    tag.trim().toLowerCase().replaceAll(/-|\s+/g, " ");
+  // Normalize tag string for comparison
+  window.normalizeTag = (tag) => tag.trim().toLowerCase().replaceAll(/-|\s+/g, " ");
 
-  // get data attribute contents of element and children
+  // Get data attribute contents of element and children
   const getAttr = (element, attr) => {
-  return [element, ...element.querySelectorAll(`[data-${attr}]`)]
-    .flatMap((element) => element.dataset[attr] ? element.dataset[attr].split(', ') : [])
-    .map((tag) => normalizeTag(tag));
-};
+    return [element, ...element.querySelectorAll(`[data-${attr}]`)]
+      .flatMap((element) => element.dataset[attr] ? element.dataset[attr].split(', ') : [])
+      .map((tag) => normalizeTag(tag));
+  };
 
-  // determine if element should show up in results based on query
+  // Determine if element should show up in results based on query
   const elementMatches = (element, { terms, phrases, tags }) => {
-  // Extract text and tags for the element
-  const elementText = element.innerText.toLowerCase() + getAttr(element, "tags").join(" ").toLowerCase();
+    // Extract text and tags for the element
+    const elementText = element.innerText.toLowerCase() + " " + getAttr(element, "tags").join(" ").toLowerCase();
 
-  // Check if text content matches terms and phrases
-  const hasText = (string) => elementText.includes(string.toLowerCase());
+    console.log(`Element text and tags for matching: ${elementText}`); // Debugging line
 
-  // Check if any of the search tags are included in the element's tags
-  const hasTag = (tag) => getAttr(element, "tags").includes(tag.toLowerCase());
+    const hasText = (string) => {
+      const result = elementText.includes(string.toLowerCase());
+      console.log(`Checking term '${string}': ${result}`); // Debugging line
+      return result;
+    };
 
-  // Match logic: terms and phrases should match in text, and at least one tag should match if tags are specified in the search
-  return (
-    (terms.every(hasText) || !terms.length) &&
-    (phrases.some(hasText) || !phrases.length) &&
-    (tags.length === 0 || tags.some(hasTag))
-  );
-};
+    const hasTag = (tag) => {
+      const result = getAttr(element, "tags").includes(tag.toLowerCase());
+      console.log(`Checking tag '${tag}': ${result}`); // Debugging line
+      return result;
+    };
 
+    return (
+      (terms.every(hasText) || !terms.length) &&
+      (phrases.some(hasText) || !phrases.length) &&
+      (tags.length === 0 || tags.some(hasTag))
+    );
+  };
 
-  // loop through elements, hide/show based on query, and return results info
+  // Loop through elements, hide/show based on query, and return results info
   const filterElements = (parts) => {
-  let elements = document.querySelectorAll(elementSelector);
+    let elements = document.querySelectorAll(elementSelector);
 
-  // results info
-  let x = 0;
-  let n = elements.length;
-  let tags = parts.tags;
+    // Results info
+    let x = 0;
+    let n = elements.length;
 
-  // filter elements
-  for (const element of elements) {
-    if (elementMatches(element, parts)) {
-      element.style.display = "";
-      x++;
-    } else element.style.display = "none";
-  }
+    // Filter elements
+    for (const element of elements) {
+      if (elementMatches(element, parts)) {
+        element.style.display = "";
+        x++;
+      } else {
+        element.style.display = "none";
+      }
+    }
 
-  // Loop through each year section after filtering
-  document.querySelectorAll('.year-section').forEach(section => {
-    // Initially hide the year section
-    section.style.display = 'none';
+    console.log(`Filtered elements: ${x} shown out of ${n}`); // Debugging line
 
-    // Check if the section contains any visible citations
-    const hasVisibleCitations = [...section.querySelectorAll('.citation')].some(citation => {
-      return window.getComputedStyle(citation).display !== 'none';
+    // Loop through each year section after filtering
+    document.querySelectorAll('.year-section').forEach(section => {
+      // Initially hide the year section
+      section.style.display = 'none';
+
+      // Check if the section contains any visible citations
+      const hasVisibleCitations = [...section.querySelectorAll('.citation')].some(citation => {
+        return window.getComputedStyle(citation).display !== 'none';
+      });
+
+      // If there are visible citations, show the section
+      if (hasVisibleCitations) {
+        section.style.display = 'block';
+      }
     });
 
-    // If there are visible citations, show the section
-    if (hasVisibleCitations) {
-      section.style.display = 'block';
-    }
-  });
-
-  return [x, n, tags];
-};
+    return [x, n, parts.tags];
+  };
 
   // highlight search terms
   const highlightMatches = async ({ terms, phrases }) => {
