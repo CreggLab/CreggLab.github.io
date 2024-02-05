@@ -98,13 +98,13 @@ document.addEventListener('DOMContentLoaded', function() {
   searchBox.addEventListener('input', (event) => {
     debouncedRunSearch(event.target.value);
   });
-
+  
   // Handle tag button clicks
   document.querySelectorAll('.search-tag').forEach(tag => {
     tag.addEventListener('click', function() {
       const searchTerm = `tag: "${this.dataset.searchTerm}"`;
-      runSearch(searchTerm);
-      updateUrl(searchTerm);
-    });
+      searchBox.value = searchTerm; // Set the search term in the search box
+      debouncedRunSearch(searchTerm); // Explicitly trigger the search
   });
 });
+
