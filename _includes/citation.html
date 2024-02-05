@@ -1,6 +1,6 @@
 {% assign citation = include.citation %}
 
-<div class="citation" data-tags="{{ citation.tags | join: ', ' }}">
+<div class="citation">
   {% if include.style == "rich" %}
     <a
       {% if citation.paperurl %}
