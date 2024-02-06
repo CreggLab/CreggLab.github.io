@@ -27,7 +27,7 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
   include button.html
   type="address"
   tooltip="Our location on Google Maps for easy navigation"
-  link="https://www.google.com/maps](https://www.google.com/maps/place/M%C3%A6rsk+T%C3%A5rnet+-+KU+K%C3%B8benhavns+Universitet/@55.6933527,12.5606762,16.58z/data=!4m6!3m5!1s0x4652530024335103:0x7931618c58699c5f!8m2!3d55.6930187!4d12.5634064!16s%2Fg%2F11c0t9jrng?entry=ttu"
+  link="https://www.google.com/maps/place/M%C3%A6rsk+T%C3%A5rnet+-+KU+K%C3%B8benhavns+Universitet/@55.6933527,12.5606762,16.58z/data=!4m6!3m5!1s0x4652530024335103:0x7931618c58699c5f!8m2!3d55.6930187!4d12.5634064!16s%2Fg%2F11c0t9jrng?entry=ttu"
 %}
 
 {% include section.html %}
@@ -58,16 +58,16 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 {% capture col1 %}
 <bf>Deliveries</bf>  
-Norre Alle 14
-MT 7.4
-2200 Copenhagnen DK 
+<br>Norre Alle 14
+<br>MT 7.4
+<br>2200 Copenhagnen DK 
 {% endcapture %}
 
 {% capture col2 %}
 <bf>Invoices</bf>    
-Blegdamsvej 3B
-MT 7.4
-2200 Copenhagnen DK 
+<br>Blegdamsvej 3B
+<br>MT 7.4
+<br>2200 Copenhagnen DK 
 {% endcapture %}
 
 {% capture col3 %}
