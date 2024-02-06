@@ -5,10 +5,10 @@
 {% for year in years %}
   <div class="year-section" data-year="{{ year.name }}"> <!-- Wrap each year's publications in a div -->
     <h3>{{ year.name }}</h3> <!-- Year header inside the div -->
-    {% assign year_papers = year.items | sort: "date" | reverse %}
+    {% assign year_news = year.items | sort: "date" | reverse %}
     
-    {% for paper in year_papers %}
-      {% assign style = paper.style | default: include.style %}
+    {% for news in year_news %}
+      {% assign style = news.style | default: include.style %}
 
       {%
         include news.html
