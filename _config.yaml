@@ -38,8 +38,6 @@ collections:
   members:
     output: true
   papers:
-    output: true
-  patents:
     output: true  
   posts:
     output: true
