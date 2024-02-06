@@ -8,4 +8,5 @@ venue: 'Experimental Neurology'
 pubtype: 'graduate'
 paperurl: "https://www.sciencedirect.com/science/article/abs/pii/S001448861530100X?via%3Dihub"
 pdf: "https://cregglab.github.io/files/Exp_Neurol_2015.pdf"
+image: "https://cregglab.github.io/images/niemi.jpg"
 ---
