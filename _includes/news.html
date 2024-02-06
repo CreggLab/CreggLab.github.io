@@ -1,5 +1,3 @@
-{% assign news = include.news %}
-
 <div class="citation">
   {% if include.style == "rich" %}
     <a
@@ -7,10 +5,10 @@
         href="{{ news.link | relative_url }}"
       {% endif %}
       class="citation-image"
-      aria-label="{{ news.title | default: "news link" }}"
+      aria-label="{{ news.title | default: 'news link' }}"
     >
          {% if news.image %}
-          <img src=" {{ post.image }} " style="width:30%; height:auto; float:left; margin: 0 20px 10px 0;">
+          <img src="{{ news.image }}" style="width:30%; height:auto; float:left; margin: 0 20px 10px 0;">
          {% endif %}
     </a>
   {% endif %}
@@ -22,7 +20,7 @@
       <i>{{ news.venue | default: "[no venue info]" }}</i>
       &nbsp; · &nbsp;
       {{ news.date | default: "[no date info]" | date: "%d %b %Y" }}
-       <br>{{ post.preview }}<a href=" {{ post.link }} " style="text-decoration: none" target="_blank"> read more</a><br>
+      <br>{{ news.preview }}<a href="{{ news.link }}" style="text-decoration: none" target="_blank"> read more</a><br>
     </div>
     
   </div>
