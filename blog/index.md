@@ -1,7 +1,7 @@
 ---
 title: News
 nav:
-  order: 4
+  order: 6
   tooltip: In the news
 ---
 
