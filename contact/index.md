@@ -58,21 +58,21 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 {% capture col1 %}
 <strong>Deliveries</strong>  
-<br>Norre Alle 14
+Norre Alle 14
 <br>MT 7.4.40
 <br>2200 Copenhagnen DK 
 {% endcapture %}
 
 {% capture col2 %}
 <strong>Invoices</strong>     
-<br>Blegdamsvej 3B
+Blegdamsvej 3B
 <br>MT 7.4.40
 <br>2200 Copenhagnen DK 
 {% endcapture %}
 
 {% capture col3 %}
 <strong>Inqueries</strong>     
-<br>Addressed to:
+Addressed to:
 <br>Jared Cregg
 <br>jared.cregg@gmail.com
 {% endcapture %}
