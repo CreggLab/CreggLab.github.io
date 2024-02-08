@@ -74,7 +74,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {%
   include feature.html
-  image="images/sfn_2019.jpg"
+  image="images/sfn2019.jpg"
   link="team"
   title="Our Team"
   text=text
