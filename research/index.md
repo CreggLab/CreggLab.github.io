@@ -7,8 +7,9 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-microscope" %}Research
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Motor circuits act as the basis of behavior. Motor control is organized across echelons of the mammalian nervous system, including both cortical and subcortical levels. In particular, the brainstem acts as a gate between higher brain functions and execution of movements by spinal motor networks. Thus, the brainstem represents a crucial bottleneck in sensorimotor processing. Our research focuses on revealing the functional organization of brainstem motor circuits, working toward interventions for human movement disorders.
+
+<br>Dive into our discoveries and see where neuroscience meets motor control!
 
 {% include section.html %}
 
