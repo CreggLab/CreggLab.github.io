@@ -7,8 +7,7 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-feather-pointed" %}News
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Our research aims to thoughtfully contribute to the field of neuroscience, focusing on meaningful outcomes that go beyond academic publications. We aim to provide substantive trainee development, and extend our research toward real-world applications. Some of the broader impact of our research is highlighted below.
 
 {% include section.html %}
 
