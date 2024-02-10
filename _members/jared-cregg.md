@@ -3,8 +3,8 @@ name: Jared Cregg
 image: images/jared.jpg
 role: pi
 aliases:
-  - J. Cregg
-  - J Cregg
+  - JM Cregg
+  - Cregg JM
 links:
   home-page: https://jmcregg.github.io
   orcid: 0000-0002-0027-9748
