@@ -3,6 +3,8 @@
 
 # WHERE NEUROSCIENCE AND ENGINEERING MEET
 
+The Cregg Lab will open July 1st, 2024 in the Departments of Neuroscience & Neurology at UW-Madison.
+
 In the Cregg Lab, we focus on understanding brainstem circuits and their critical role in motor control. Our team employs cutting-edge techniques to dissect brainstem motor circuits in sophisticated anatomical, molecular, and functional detail. Our work aims to enhance our comprehension of the neural circuitry controlling movement, and offer insights into movement disorders such as Parkinson’s disease.
 
 {% include section.html %}
