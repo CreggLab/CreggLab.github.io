@@ -1,7 +1,7 @@
 ---
 ---
 
-# WHERE NEUROSCIENCE AND ENGINEERING MEET
+# AT THE INTERSECTION OF NEUROSCIENCE & NEUROLOGY
 
 The Cregg Lab will open July 1st, 2024 in the Departments of Neuroscience & Neurology at UW-Madison.
 
