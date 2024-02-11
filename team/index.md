@@ -24,9 +24,9 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 {% capture content %}
 
-{% include figure.html image="images/photo.jpg" %}
-{% include figure.html image="images/photo.jpg" %}
-{% include figure.html image="images/photo.jpg" %}
+{% include figure.html image="images/DHL_1.jpg" %}
+{% include figure.html image="images/brainprize3.jpg" %}
+{% include figure.html image="images/halloween2022.jpg" %}
 
 {% endcapture %}
 
