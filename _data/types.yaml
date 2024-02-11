@@ -48,6 +48,11 @@ home-page:
   text: Home Page
   tooltip: Home page
 
+cv:
+  icon:
+  text: CV
+  tooltip: CV
+
 email:
   icon: fa-solid fa-envelope
   text: Email
