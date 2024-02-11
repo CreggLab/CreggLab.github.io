@@ -49,7 +49,7 @@ home-page:
   tooltip: Home page
 
 cv:
-  icon:
+  icon: fa-solid fa-file
   text: CV
   tooltip: CV
 
