@@ -8,6 +8,7 @@ aliases:
 links:
   home-page: https://jmcregg.github.io
   orcid: 0000-0002-0027-9748
+  cv: https://cregglab.github.io/files/Cregg_CV.pdf
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
