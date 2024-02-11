@@ -8,10 +8,6 @@ aliases:
 links:
   email: jared.cregg@gmail.com
   cv: https://cregglab.github.io/files/Cregg_CV.pdf
-  twitter: https://twitter.com/j_cregg
-  google-scholar: https://scholar.google.com/citations?user=g267xwoAAAAJ&hl
-  orcid: 0000-0002-0027-9748
-  
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
