@@ -1,5 +1,19 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.1038/s41593-024-01569-8
+  title: "Basal ganglia\u2013spinal cord pathway that commands locomotor gait asymmetries\
+    \ in mice"
+  authors:
+  - Jared M. Cregg
+  - Simrandeep K. Sidhu
+  - Roberto Leiras
+  - Ole Kiehn
+  publisher: Nature Neuroscience
+  date: '2024-02-12'
+  link: https://doi.org/gthgvj
+  orcid: 0000-0002-0027-9748
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1152/jn.00500.2022
   title: Highlights from the 31st Annual Meeting of the Society for the Neural Control
     of Movement
