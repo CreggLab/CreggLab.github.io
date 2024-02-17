@@ -11,7 +11,7 @@ The Cregg Lab will open July 1st, 2024 in the Departments of Neuroscience & Neur
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Our research focuses on revealing the functional organization of brainstem motor circuits. Dive into our discoveries and see how the brain takes action!
 
 {%
   include button.html
@@ -34,7 +34,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {% capture text %}
 
-Dive into our discoveries and see how the brain takes action!
+Our research focuses on revealing the functional organization of brainstem motor circuits. Dive into our discoveries and see how the brain takes action!
 
 {%
   include button.html
