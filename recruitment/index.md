@@ -4,7 +4,7 @@ title: Recruitment
 
 # {% include icon.html icon="fa-solid fa-users" %}How to Join Our Team
 
-Our team aims to harness the strength of diversity, welcoming individuals from varied backgrounds and skillsets toward an innovative research environment. We aim to provide opportunities for growth and personal development, ensuring that unique perspectives contribute to our pursuit of scientific excellence. For more information on current openings and how to apply, please refer to the information below.
+The Cregg Lab will open July 1st, 2024 in the Departments of Neuroscience & Neurology at University of Wisconsin-Madison. Our lab is dedicated to advancing neuroscience research, and we are actively seeking to build our team with talented individuals at all career stages. For more details on how to join the lab, please refer to the sections below or reach out directly. 
 
 {% include section.html %}
 
