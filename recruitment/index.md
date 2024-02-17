@@ -4,7 +4,7 @@ title: Recruitment
 
 # {% include icon.html icon="fa-solid fa-users" %}How to Join Our Team
 
-The Cregg Lab opens July 1st, 2024 in the Departments of Neuroscience & Neurology at University of Wisconsin-Madison. We are actively seeking talented individuals at all career levels. For more details on how to join the lab, please refer to the sections below or reach out directly: 
+The Cregg Lab opens July 1st, 2024 in the Departments of Neuroscience & Neurology at University of Wisconsin-Madison. We are actively seeking talented individuals at all career levels. See below for more details on available openings, and feel free to reach out directly: 
 
 {%
   include button.html
@@ -16,17 +16,17 @@ The Cregg Lab opens July 1st, 2024 in the Departments of Neuroscience & Neurolog
 {% include section.html %}
 
 **Research Assistant**<br>
-We are seeking a Research Assistant with a strong foundation in the sciences to join our team. This position is perfect for recent graduates aiming to gain significant research experience before pursuing graduate studies. The ideal candidate will be eager to make a significant contribution to our research projects over a 1-2 year period, with the goal of enhancing their skills and knowledge in preparation for advanced academic pursuits. This job will soon be posted at the [UW Jobs Portal](https://jobs.wisc.edu/)
+We are seeking a Research Assistant with a strong foundation in the sciences to join our team. This position is perfect for recent graduates aiming to gain significant research experience before pursuing graduate studies. The ideal candidate will be eager to make a meaningful contribution to our research projects over a 1-2 year period, with the goal of enhancing their skills and knowledge in preparation for advanced academic pursuits. This job will soon be posted at the [UW Jobs Portal](https://jobs.wisc.edu/).
 
 {% include section.html %}
 
 **Postdoctoral Candidates**<br>
-We are recruiting postdocs! Ideal candidates would have expertise in one or more of the following areas: rodent stereotaxic surgery, electrophysiology, Ca2+ imaging, fiber photometry, molecular biology, or data analysis. Interested candidates should submit their CV and a brief statement of interest (under 500 words) to Jared Cregg. We encourage applications from candidates of diverse backgrounds. 
+We are recruiting postdocs! Ideal candidates would have expertise in one or more of the following areas: rodent stereotaxic surgery, electrophysiology, Ca^2+^ imaging, fiber photometry, molecular biology, or data analysis. Interested candidates should submit their CV and a brief statement of interest (under 500 words) to Jared Cregg. We encourage applications from candidates of diverse backgrounds. 
 
 {% include section.html %}
 
 **Prospective PhD Students**<br>
-The Cregg Lab is excited to welcome PhD rotation students for Fall 2024 through the Neuroscience Training Program (NTP). We are looking for passionate students who are ready to contribute to our dynamic research environment. For admission requirements and application details, please visit the [NTP admissions page](https://ntp.neuroscience.wisc.edu/admissions/). Applications are due December 1st each year. We highly encourage interested students to contact us well in advance of the deadline to discuss potential research opportunities and get a feel for our lab's culture. We strive for a diverse and inclusive lab environment and welcome applicants from all backgrounds.
+The Cregg Lab is excited to welcome PhD rotation students for Fall 2024 through the Neuroscience Training Program (NTP). We are looking for passionate students who are ready to contribute to our dynamic research environment. For admission requirements and application details, please visit the [NTP admissions page](https://ntp.neuroscience.wisc.edu/admissions/). Applications are due December 1st each year. We highly encourage interested students to contact us in advance of the deadline to discuss this opportunity and get a feel for our lab's culture. We strive for a diverse and inclusive lab environment and welcome applicants from all backgrounds.
 
 {% include section.html %}
 
