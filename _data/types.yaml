@@ -22,6 +22,10 @@ programmer:
   icon: fa-solid fa-code
   description: Programmer
 
+ra:
+  icon: fa-solid fa-wand-magic-sparkles
+  description: Research Assistant
+
 mascot:
   icon: fa-solid fa-dog
   description: Mascot
