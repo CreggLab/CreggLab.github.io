@@ -6,7 +6,7 @@ pi:
   icon: fa-solid fa-microscope
   description: Principal Investigator
 
-ra:
+tech:
   icon: fa-solid fa-wand-magic-sparkles
   description: Research Assistant
 
