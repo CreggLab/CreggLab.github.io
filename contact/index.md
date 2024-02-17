@@ -56,7 +56,7 @@ link="https://www.google.com/maps/place/Wisconsin+Institutes+for+Medical+Researc
 
 {% capture col1 %}
 <strong>Deliveries & Invoices</strong>  
-<br>Cregg Lab
+Cregg Lab
 <br>Department of Neuroscience, UW-Madison
 <br>Room 5548 WIMR-II
 <br>Madison WI 53705
