@@ -55,24 +55,23 @@ link="https://www.google.com/maps/place/Wisconsin+Institutes+for+Medical+Researc
 {% include section.html dark=true %}
 
 {% capture col1 %}
-<strong>Deliveries</strong>  
-Norre Alle 14
-<br>MT 7.4.40
+<strong>Deliveries & Invoices</strong>  
+<br>Cregg Lab
+<br>Department of Neuroscience, UW-Madison
+<br>Room 5548 WIMR-II
+<br>Madison, WI 53705
+<br>USA
 <br>2200 Copenhagnen DK 
 {% endcapture %}
 
 {% capture col2 %}
-<strong>Invoices</strong>     
-Blegdamsvej 3B
-<br>MT 7.4.40
-<br>2200 Copenhagnen DK 
-{% endcapture %}
-
-{% capture col3 %}
-<strong>Inqueries</strong>     
+<strong>Inquiries</strong>     
 Addressed to:
 <br>Jared Cregg
 <br>jared.cregg@gmail.com
+{% endcapture %}
+
+{% capture col3 %}
 {% endcapture %}
 
 {% include cols.html col1=col1 col2=col2 col3=col3 %}
