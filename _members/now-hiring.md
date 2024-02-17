@@ -1,7 +1,6 @@
 ---
 name: Now Hiring
 image: images/photo.jpg
-description: Postdoc
 role: postdoc
 ---
 
