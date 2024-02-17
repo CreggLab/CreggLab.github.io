@@ -1,7 +1,6 @@
 ---
 name: Open Position
 image: images/photo.jpg
-description: Research Assistant
 role: ra
 ---
 
