@@ -13,6 +13,10 @@ The Cregg Lab opens July 1st, 2024 in the Departments of Neuroscience & Neurolog
   link="jared.cregg@gmail.com"
 %}
 
+{% include section.html %}
+
+**Research Assistant**<br>
+We are seeking a Research Assistant with a strong foundation in the sciences to join our team. This position is perfect for recent graduates aiming to gain significant research experience before pursuing graduate studies. The ideal candidate will be eager to make a significant contribution to our research projects over a 1-2 year period, with the goal of enhancing their skills and knowledge in preparation for advanced academic pursuits. This job will soon be posted at the [UW Jobs Portal](https://jobs.wisc.edu/)
 
 {% include section.html %}
 
