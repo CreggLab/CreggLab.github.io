@@ -63,7 +63,7 @@ Cregg Lab
 
 {% capture col2 %}
 <strong>Inquiries:</strong>     
-<br>Jared Cregg
+Jared Cregg
 <br>jared.cregg@gmail.com
 {% endcapture %}
 
