@@ -7,9 +7,7 @@ nav:
 
 # {% include icon.html icon="fa-regular fa-envelope" %}Contact
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+The Cregg Lab is part of the School of Medicine and Public Health at the University of Wisconsin-Madison. We are located in the Department of Neuroscience on the 5th floor of WIMR II. We are actively seeking talented individuals at all career stages. Click [**here**](https://cregglab.github.io/recruitment/) for more information.
 
 {%
   include button.html
