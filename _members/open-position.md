@@ -13,3 +13,4 @@ We are seeking a Research Assistant with a strong foundation in the sciences to 
   text="Jared Cregg"
   link="jared.cregg@gmail.com"
 %}
+
