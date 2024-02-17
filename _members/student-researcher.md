@@ -1,7 +1,7 @@
 ---
 name: Student Researcher
 image: images/photo.jpg
-description: Undergraduate
+description: Undergraduate Student
 role: undergrad
 links:
 ---
