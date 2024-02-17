@@ -9,7 +9,7 @@ The Cregg Lab opens July 1st, 2024 in the Departments of Neuroscience & Neurolog
 {%
   include button.html
   type="email"
-  text="Jared Cregg, Principal Investigator"
+  text="Jared Cregg"
   link="jared.cregg@gmail.com"
 %}
 
