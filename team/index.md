@@ -7,7 +7,7 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-users" %}Team
 
-Our team aims to harness the strength of diversity, welcoming individuals from varied backgrounds and skillsets toward an innovative research environment. We aim to provide opportunities for growth and personal development, ensuring that unique perspectives contribute to our pursuit of scientific excellence.
+Our team aims to harness the strength of diversity, welcoming individuals from varied backgrounds and skillsets toward an innovative research environment. We aim to provide opportunities for growth and personal development, ensuring that unique perspectives contribute to our pursuit of scientific excellence. Please see below for information on how to join our team!
 
 {% include section.html %}
 
@@ -16,9 +16,15 @@ Our team aims to harness the strength of diversity, welcoming individuals from v
 
 {% include section.html background="images/background.jpg" dark=true %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+**Postdoctoral Candidates**<br>
+We are recruiting postdocs! Ideal candidates would have expertise in one or more of the following areas: rodent stereotaxic surgery, electrophysiology, Ca2+ imaging, fiber photometry, molecular biology, or data analysis. Interested candidates should submit their CV and a brief statement of interest (under 500 words) to Jared Cregg. We encourage applications from candidates of diverse backgrounds. 
+
+**Prospective PhD Students**<br>
+The Cregg Lab is excited to welcome PhD rotation students for Fall 2024 through the Neuroscience Training Program (NTP). We are looking for passionate students who are ready to contribute to our dynamic research environment. For admission requirements and application details, please visit the [NTP admissions page](https://ntp.neuroscience.wisc.edu/admissions/). Applications are due December 1st each year. We highly encourage interested students to contact us well in advance of the deadline to discuss potential research opportunities and get a feel for our lab's culture. We strive for a diverse and inclusive lab environment and welcome applicants from all backgrounds.
+
+**Undergraduates**<br>
+We are excited to offer experimental research opportunities for undergraduate students, particularly those with strong analytical skills from disciplines like physics, math, engineering, and computer science. Selected undergraduates will be paired with a PhD student and/or postdoc mentor, and receive hands-on training in our cutting-edge research projects, and personalized guidance towards achieving their career aspirations. We are keen to welcome students from all backgrounds, including those new to research. If you are interested in joining our team, please contact Jared Cregg with your CV and a brief statement of interest (under 200 words).
+
 
 {% include section.html %}
 
