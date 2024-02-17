@@ -1,11 +1,11 @@
 ---
-name: Sarah Johnson
+name: Now Hiring
 image: images/photo.jpg
-description: Lead Programmer
-role: programmer
+description: Postdoc
+role: postdoc
 links:
-  email: sarah.johnson@gmail.com
-  twitter: sarahjohnson
+  email: 
+  twitter: 
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+We are recruiting postdocs! Ideal candidates would have expertise in one or more of the following areas: rodent stereotaxic surgery, electrophysiology, Ca2+ imaging, fiber photometry, molecular biology, or data analysis. Interested candidates should submit their CV and a brief statement of interest (under 500 words) to Jared Cregg. We encourage applications from candidates of diverse backgrounds.
