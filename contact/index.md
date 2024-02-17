@@ -34,8 +34,8 @@ link="https://www.google.com/maps/place/Wisconsin+Institutes+for+Medical+Researc
 
 {%
   include figure.html
-  image="images/photo.jpg"
-  caption="Lorem ipsum"
+  image="images/bascom.jpg"
+  caption="University of Wisconsin-Madison"
 %}
 
 {% endcapture %}
@@ -44,8 +44,8 @@ link="https://www.google.com/maps/place/Wisconsin+Institutes+for+Medical+Researc
 
 {%
   include figure.html
-  image="images/photo.jpg"
-  caption="Lorem ipsum"
+  image="images/wimr.jpg"
+  caption="Wisconsin Institutes for Medical Research (WIMR)"
 %}
 
 {% endcapture %}
