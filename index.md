@@ -19,7 +19,6 @@ Our research focuses on revealing the functional organization of brainstem motor
   text="See our publications"
   icon="fa-solid fa-arrow-right"
   flip=true
-  style="bare"
 %}
 
 {% endcapture %}
@@ -42,7 +41,6 @@ Our research focuses on revealing the functional organization of brainstem motor
   text="Browse our projects"
   icon="fa-solid fa-arrow-right"
   flip=true
-  style="bare"
 %}
 
 {% endcapture %}
@@ -67,7 +65,6 @@ Our team aims to harness the strength of diversity, welcoming individuals from v
   text="Meet our team"
   icon="fa-solid fa-arrow-right"
   flip=true
-  style="bare"
 %}
 
 {% endcapture %}
@@ -76,6 +73,6 @@ Our team aims to harness the strength of diversity, welcoming individuals from v
   include feature.html
   image="images/sfn2019.jpg"
   link="team"
-  title="Our Team"
+  title="The next generation of neuroscientists"
   text=text
 %}
