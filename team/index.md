@@ -16,8 +16,10 @@ Our team aims to harness the strength of diversity, welcoming individuals from v
 {% include list.html data="members" component="portrait" filters="role: postdoc" %}
 {% include list.html data="members" component="portrait" filters="role: phd" %}
 {% include list.html data="members" component="portrait" filters="role: undergrad" %}
+<!---
 {% include list.html data="members" component="portrait" filters="role: programmer" %}
 {% include list.html data="members" component="portrait" filters="role: mascot" %}
+-->
 
 {% include section.html background="images/background.jpg" dark=true %}
 
