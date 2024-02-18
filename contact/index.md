@@ -54,17 +54,17 @@ link="https://www.google.com/maps/place/Wisconsin+Institutes+for+Medical+Researc
 {% include section.html dark=true %}
 
 {% capture col1 %}
+<strong>Inquiries:</strong>     
+Jared Cregg
+<br>jared.cregg@gmail.com
+{% endcapture %}
+
+{% capture col2 %}
 <strong>Deliveries & Invoices:</strong>  
 Cregg Lab
 <br>Department of Neuroscience, UW-Madison
 <br>Room 5548 WIMR-II
 <br>Madison WI 53705
-{% endcapture %}
-
-{% capture col2 %}
-<strong>Inquiries:</strong>     
-Jared Cregg
-<br>jared.cregg@gmail.com
 {% endcapture %}
 
 {% capture col3 %}
