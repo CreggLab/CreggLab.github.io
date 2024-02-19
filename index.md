@@ -16,7 +16,7 @@ Our research focuses on revealing the functional organization of brainstem motor
 {%
   include button.html
   link="research"
-  text="See our publications"
+  text="Browse our projects"
   icon="fa-solid fa-arrow-right"
   flip=true
 %}
@@ -37,8 +37,8 @@ Our research focuses on revealing the functional organization of brainstem motor
 
 {%
   include button.html
-  link="projects"
-  text="Browse our projects"
+  link="publications"
+  text="See our publications"
   icon="fa-solid fa-arrow-right"
   flip=true
 %}
@@ -48,8 +48,8 @@ Our research focuses on revealing the functional organization of brainstem motor
 {%
   include feature.html
   image="images/brainstems.jpg"
-  link="projects"
-  title="Our Projects"
+  link="publications"
+  title="Publications"
   flip=true
   style="bare"
   text=text
