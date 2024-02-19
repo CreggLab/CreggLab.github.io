@@ -9,8 +9,6 @@ nav:
 
 Dive into our discoveries and see how the brain takes action!
 
-<!-- {% include section.html %}-->
-
 <div id="all-publications"> <!-- Start of All Publications div -->
   
   {% include search-box.html %}
