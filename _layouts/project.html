@@ -1,0 +1,58 @@
+---
+layout: default
+---
+
+<div class="project">
+
+  <h1 align="center">{{ page.title }}</h1>
+  {% if page.subtitle %}
+    <h2 align="center">{{ page.subtitle }}</h2>
+  {% endif %}
+
+  <p align="justify">{{ page.description | markdownify }}</p>
+
+  {% if page.image %}
+    <table class="smalltable" align="center">
+      <tr>
+        <td>
+          <img id="projectImg" style="border-radius: 8px; cursor: pointer; transition: 0.3s;" width="100%" height="auto" src="{{ page.image | relative_url }}" alt="{{ page.title }}" onclick="enlargeImg()">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <figcaption align="center">{{ page.figcaption | default: 'Project Image' }}</figcaption>
+        </td>
+      </tr>
+    </table>
+  {% endif %}
+
+  <div align="justify">
+    {{ content | markdownify }}
+  </div>
+
+  {% if page.link %}
+    <p>Project Link: <a href="{{ page.link }}" target="_blank">{{ page.link }}</a></p>
+  {% endif %}
+
+  {% if page.repo %}
+    <p>GitHub Repository: <a href="https://github.com/{{ page.repo }}" target="_blank">https://github.com/{{ page.repo }}</a></p>
+  {% endif %}
+
+</div>
+
+<script src="http://code.jquery.com/jquery-1.4.2.min.js"></script>
+<script src="https://jmcregg.github.io/enlarge.js"></script>
+<!-- Add any other scripts you need for this page -->
+
+<style>
+  body {font-family: Arial, Helvetica, sans-serif;}
+
+  .smalltable {
+    border-collapse: collapse; 
+    border: none;
+    width: 60%;
+    margin: 20px auto;
+  }
+
+  #projectImg:hover {opacity: 0.6;}
+</style>
