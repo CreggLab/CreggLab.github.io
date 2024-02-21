@@ -41,6 +41,8 @@ collections:
     output: true
   posts:
     output: true
+  projects:
+    output: true
   news:
     output: true
     
