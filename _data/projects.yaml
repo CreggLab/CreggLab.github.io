@@ -1,57 +1,49 @@
-- title: Cool Dataset
-  subtitle: a subtitle
+- title: Brainstem Circuits for 3D Movements
+  subtitle: Vestibular Motor Actions
   group: featured
-  image: images/photo.jpg
+  image: images/3d_movements2.jpg
   link: https://github.com/
   description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
   repo: greenelab/lab-website-template
-  tags:
-    - resource
 
-- title: Cool Package
-  subtitle: a subtitle
+- title: Brainstem Circuits for Locomotion
+  subtitle: Circuit Mechanisms for Speed, Stop, and Turn
   group: featured
-  image: images/photo.jpg
+  image: images/nat_neuro_2.jpg
   link: https://github.com/
   description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
   repo: greenelab/lab-website-template
-  tags:
-    - resource
 
-- title: Cool Package
-  subtitle: a subtitle
+- title: Brainstem Circuits for Respiration
+  subtitle: Rhythm Generation Across the Frequency Spectrum
   group: featured
-  image: images/photo.jpg
+  image: images/diaphragm.jpg
   link: https://github.com/
   description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
   repo: greenelab/lab-website-template
   tags:
     - resource
 
-- title: Cool Tutorial
-  subtitle: a subtitle
-  image: images/photo.jpg
+- title: Brainstem Circuits for 3D Movements
+  subtitle: Vestibular Motor Actions
+  image: images/3d_movements2.jpg
   link: https://github.com/
   description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
   repo: greenelab/lab-website-template
-  tags:
-    - resource
-    - publication
 
-- title: Cool Web App
-  subtitle: a subtitle
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-  tags:
-    - software
 
-- title: Cool Web Server
-  subtitle: a subtitle
+- title: Brainstem Circuits for Locomotion
+  subtitle: Circuit Mechanisms for Speed, Stop, and Turn
+  image: images/nat_neuro_2.jpg
+  link: https://github.com/
+  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  repo: greenelab/lab-website-template
+
+
+- title: Brainstem Circuits for Respiration
+  subtitle: Rhythm Generation Across the Frequency Spectrum
   image: images/photo.jpg
   link: https://github.com/
   description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
   repo: greenelab/lab-website-template
-  tags:
-    - software
+
