@@ -1,11 +1,32 @@
-<!DOCTYPE html>
-<html lang="en" data-dark="false">
-  {% include head.html %}
-  <body>
-    {% include header.html %}
-    <main>
-      {% include content.html content=content %}
-    </main>
-    {% include footer.html %}
-  </body>
-</html>
+---
+layout: default
+---
+
+{% capture floatcontent %}
+
+{% include portrait.html lookup=page.slug %}
+
+<---
+<div>
+  {% for link in page.links %}
+    {% assign key = link[0] %}
+    {% assign value = link[1] %}
+    {% include button.html type=key link=value style="bare" %}<br>
+  {% endfor %}
+</div>
+
+{% endcapture %}
+
+{% include float.html content=floatcontent %}
+-->
+  
+{{ content }}
+
+{% assign aliases = page.aliases
+  | default: page.name
+  | default: page.title
+  | join: ","
+  | split: ","
+  | array_filter
+%}
+
