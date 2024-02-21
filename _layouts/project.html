@@ -2,31 +2,43 @@
 layout: default
 ---
 
-<!--
-{% capture floatcontent %}
+<article class="project">
 
-{% include portrait.html lookup=page.slug %}
+  <header class="project-header">
+    <h1>{{ page.title }}</h1>
+    {% if page.subtitle %}
+      <h2>{{ page.subtitle }}</h2>
+    {% endif %}
+  </header>
 
-<div>
-  {% for link in page.links %}
-    {% assign key = link[0] %}
-    {% assign value = link[1] %}
-    {% include button.html type=key link=value style="bare" %}<br>
-  {% endfor %}
-</div>
+  {% if page.image %}
+    <img src="{{ page.image | relative_url }}" alt="{{ page.title }}" class="project-image">
+  {% endif %}
 
-{% endcapture %}
+  {% if page.description %}
+    <div class="project-description">
+      {{ page.description | markdownify }}
+    </div>
+  {% endif %}
 
-{% include float.html content=floatcontent %}
--->
-  
-{{ content }}
+  <div class="project-details">
+    {% if page.link %}
+      <a href="{{ page.link }}" class="project-link" target="_blank">Project Homepage</a>
+    {% endif %}
+    {% if page.repo %}
+      <a href="https://github.com/{{ page.repo }}" class="project-repo" target="_blank">GitHub Repository</a>
+    {% endif %}
+  </div>
+
+  <section class="project-content">
+    {{ content }}
+  </section>
+
+</article>
 
 {% assign aliases = page.aliases
-  | default: page.name
   | default: page.title
   | join: ","
   | split: ","
   | array_filter
 %}
-
