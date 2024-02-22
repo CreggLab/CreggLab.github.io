@@ -29,15 +29,6 @@ layout: default
   <div align="justify">
     {{ content | markdownify }}
   </div>
-
-  {% if page.link %}
-    <p>Project Link: <a href="{{ page.link }}" target="_blank">{{ page.link }}</a></p>
-  {% endif %}
-
-  {% if page.repo %}
-    <p>GitHub Repository: <a href="https://github.com/{{ page.repo }}" target="_blank">https://github.com/{{ page.repo }}</a></p>
-  {% endif %}
-
 </div>
 
 <script src="http://code.jquery.com/jquery-1.4.2.min.js"></script>
