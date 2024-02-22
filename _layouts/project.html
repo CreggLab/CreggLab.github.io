@@ -5,11 +5,11 @@ layout: default
 <div class="project">
 
   <h1 align="center">{{ page.title }}</h1>
+  <p align="justify">{{ page.description | markdownify }}</p>
+  
   {% if page.subtitle %}
     <h2 align="center">{{ page.subtitle }}</h2>
   {% endif %}
-
-  <p align="justify">{{ page.description | markdownify }}</p>
 
   {% if page.image %}
     <table id="myTable" class="smalltable">
