@@ -25,21 +25,16 @@
           data-tooltip="{{ include.tooltip }}"
         {% endif %}
         class="card-title"
+        style="text-decoration: none;"
       >
-        {{ include.title }}
-    </a>
-    {% endif %}
-
-    {% if include.subtitle %}
-      <span class="card-subtitle">{{ include.subtitle }}</span>
+        <strong>{{ include.title }}</strong>
+      </a>
     {% endif %}
 
     {% if include.description %}
       {{ include.description | markdownify }}
     {% endif %}
 
-    {% if include.tags or include.repo %}
-      {% include tags.html tags=include.tags repo=include.repo %}
-    {% endif %}
   </div>
 </div>
+
