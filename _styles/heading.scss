@@ -43,5 +43,6 @@ h4 {
 }
 
 :where(h1, h2, h3, h4) > .icon {
-  display: none;
+  margin-right: 1em;
+  color: var(--light-gray);
 }
