@@ -5,7 +5,7 @@ nav:
   tooltip: Published works
 ---
 
-# {% include icon.html icon="fa-solid fa-microscope" %}Publications
+# {% include icon.html icon="fa-solid fa-file" %}Publications
 
 Dive into our discoveries and see how the brain takes action!
 
