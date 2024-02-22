@@ -2,8 +2,9 @@
 title: Brainstem Circuits for Respiration
 subtitle: Rhythm Generation Across the Frequency Spectrum
 image: images/diaphragm.jpg
+figcaption: Text art by Tagxedo
 link: https://cregglab.github.io/projects/respiration.html
-description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+description: Respiration, a continuous behavior in humans, is governed by the brainstem's preBötzinger complex. Our research has demonstrated that inhibition, contrary to traditional views, is essential for rapid respiratory rates during activities like exercise.
 repo: greenelab/lab-website-template
 ---
 Respiration is unique amongst the behavioral repertoire in that it is continuously active throughout postnatal life. Indeed, humans breathe ~20,000 times per day and hundreds of millions of times over the average lifespan. In mammals, respiration is orchestrated by a distributed brainstem network, where a medullary nucleus termed the preBötzinger complex is critical for generating the respiratory rhythm.</p>
