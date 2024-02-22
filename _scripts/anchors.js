@@ -1,6 +1,6 @@
 /*
   creates link next to each heading that links to that section.
-*/
+
 
 {
   const onLoad = () => {
@@ -45,3 +45,5 @@
   // when hash nav happens
   window.addEventListener("hashchange", scrollToTarget);
 }
+
+*/
