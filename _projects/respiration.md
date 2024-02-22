@@ -1,6 +1,7 @@
 ---
 title: Brainstem Circuits for Respiration
 subtitle: Rhythm Generation Across the Frequency Spectrum
+solid: fa-solid fa-lungs
 image: images/diaphragm.jpg
 figcaption: Text art by Tagxedo
 link: https://cregglab.github.io/projects/respiration.html
