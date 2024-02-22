@@ -4,7 +4,7 @@ subtitle: Circuit Mechanisms for Speed, Stop, and Turn
 image: images/nat_neuro_2.jpg
 figcaption: Cover image by Gil Costa
 link: https://cregglab.github.io/projects/locomotion.html
-description: Locomotion involves coordinated muscle contraction driven by spinal networks, with the brainstem regulating initiation and speed. Our recent discoveries show that specific neurons in the brainstem also control turning. This work is critical to understanding locomotor deficits in Parkinson's disease.
+description: Locomotion requires coordinated muscle contraction driven by spinal networks, with the brainstem regulating initiation and speed. Our recent discoveries show that specific neurons in the brainstem also control turning. This work is critical to understanding locomotor deficits in Parkinson's disease.
 repo: 
 ---
 Locomotion is a universal modality of movement that allows translation of the body from point to point. Locomotion requires precise temporal coordination between muscle groups, which is largely accomplished by rhythmic networks within the spinal cord itself. Executive spinal networks receive commands from the brainstem which regulate distinct features of locomotion, including initiation and speed (<a href="https://cregglab.github.io/files/ARN_2022.pdf" style="text-decoration: none" target="_blank"><strong><i>Ann Rev Neurosci</i>, 2022</strong></a>).
