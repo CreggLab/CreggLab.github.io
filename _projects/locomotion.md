@@ -1,7 +1,7 @@
 ---
 title: Brainstem Circuits for Locomotion
 subtitle: Circuit Mechanisms for Speed, Stop, and Turn
-solid: fa-person-running
+solid: fa-solid fa-person-running
 image: images/nat_neuro_2.jpg
 figcaption: Cover image by Gil Costa
 link: https://cregglab.github.io/projects/locomotion.html
