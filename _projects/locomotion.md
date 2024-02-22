@@ -1,9 +1,8 @@
 ---
 title: Brainstem Circuits for Locomotion
 subtitle: Circuit Mechanisms for Speed, Stop, and Turn
-group: featured
 image: images/nat_neuro_2.jpg
-link: https://github.com/
+link: https://cregglab.github.io/projects/locomotion.html
 description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 repo: greenelab/lab-website-template
 ---
