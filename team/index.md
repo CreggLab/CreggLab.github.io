@@ -19,7 +19,7 @@ Our team aims to harness the strength of diversity, welcoming individuals from v
 
 {% include section.html background="images/background.jpg" dark=true %}
 
-Click [**here**](https://cregglab.github.io/recruitment/) for more information on current openings and how to apply. 
+Click <a href="https://cregglab.github.io/recruitment/" style="text-decoration: none;"><strong>here</strong></a> for more information on current openings and how to apply. 
 
 {% include section.html %}
 
