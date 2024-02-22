@@ -2,8 +2,9 @@
 title: Brainstem Circuits for Locomotion
 subtitle: Circuit Mechanisms for Speed, Stop, and Turn
 image: images/nat_neuro_2.jpg
+figcaption: Cover image by Gil Costa
 link: https://cregglab.github.io/projects/locomotion.html
-description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+description: Locomotion involves coordinated muscle movement driven by spinal networks, with the brainstem regulating initiation and speed; recent discoveries show that specific neurons in the medulla control turning, a movement critical to understanding locomotor deficits in conditions like Parkinson's disease.
 repo: greenelab/lab-website-template
 ---
 
