@@ -7,8 +7,7 @@ layout: default
   <h1 align="center">
     {% if page.solid %}
       {% include icon.html icon=page.solid %}
-    {% endif %}
-    {{ page.title }}
+    {% endif %}{{ page.title }}
   </h1>
   <p align="justify">{{ page.description | markdownify }}</p>
   
