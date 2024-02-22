@@ -1,7 +1,6 @@
 ---
 title: Brainstem Circuits for 3D Movements
 subtitle: Vestibular Motor Actions
-group: featured
 image: images/3d_movements2.jpg
 link: https://cregglab.github.io/projects/vestibular.html
 description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
