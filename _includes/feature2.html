@@ -1,6 +1,7 @@
 <div class="feature" {% if include.flip %}data-flip{% endif %}>
   <div class="slideshow-container feature-image">
-    {% for image in include.images %}
+    {% assign images = include.images | split: ',' %}
+    {% for image in images %}
       <div class="mySlides fade">
         <a
           {% if include.link %}
