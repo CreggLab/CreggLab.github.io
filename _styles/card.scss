@@ -21,12 +21,12 @@
 }
 
 .card-image img {
-  width: 80%; /* Set image width to 90% of the card's width */
+  width: 66%; /* Set image width to 90% of the card's width */
   height: auto; /* Ensure the height adjusts to maintain the image's aspect ratio */
   margin: 0 auto; /* Center the image horizontally within the card */
   display: block; /* Treat the image as a block element to apply margin correctly */
   border-radius: 5px; /* Adjust as needed to round the corners */
-  // box-shadow: var(--shadow); /* Uncomment if you want to apply a shadow */
+  box-shadow: var(--shadow); /* Uncomment if you want to apply a shadow */
 }
 
 .card-text {
