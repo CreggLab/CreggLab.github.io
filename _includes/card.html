@@ -1,20 +1,6 @@
 {{ " " }}
 <div class="card" data-style="{{ include.style }}">
-  <a
-    {% if include.link %}
-      href="{{ include.link | relative_url }}"
-    {% endif %}
-    aria-label="{{ include.title | default: "card link" }}"
-    class="card-image"
-  >
-    <img
-      src="{{ include.image | relative_url }}"
-      alt="{{ include.title | default: "card image" }}"
-      loading="lazy"
-      {% include fallback.html %}
-    >
-  </a>
-
+  
   <div class="card-text">
     {% if include.title %}
       <a
@@ -31,10 +17,26 @@
       </a>
     {% endif %}
 
+  <a
+      {% if include.link %}
+        href="{{ include.link | relative_url }}"
+      {% endif %}
+      aria-label="{{ include.title | default: "card link" }}"
+      class="card-image"
+  >
+    <img
+      src="{{ include.image | relative_url }}"
+      alt="{{ include.title | default: "card image" }}"
+      loading="lazy"
+      {% include fallback.html %}
+    >
+  </a>
+    
     {% if include.description %}
       {{ include.description | markdownify }}
     {% endif %}
-
+  
   </div>
+  
 </div>
 
