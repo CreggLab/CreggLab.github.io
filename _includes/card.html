@@ -37,7 +37,8 @@
     {% endif %}
   </div>
 
-{% include button.html text="Read more" link=include.link | relative_url %}
+{% capture link_url %}{{ include.link | relative_url }}{% endcapture %}
+{% include button.html text="Read more" link=link_url %}
   
 </div>
 
