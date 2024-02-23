@@ -54,10 +54,6 @@
   position: relative;
 }
 
-.mySlides {
-  display: none;
-}
-
 .dot-container {
   position: absolute;
   bottom: -25px;
