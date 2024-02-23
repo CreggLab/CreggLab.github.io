@@ -48,7 +48,7 @@
   font-family: var(--heading);
   font-weight: var(--semi-bold);
   text-decoration: none; /* Ensures no underline */
-  /* color: inherit; Inherits the color from the parent, making it look like normal text */
+  color: #000000; /* inherit; Inherits the color from the parent, making it look like normal text */
 
   &:hover, &:focus {
     color: #007bff; /* Change to your normal link color on hover */
