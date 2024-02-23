@@ -1,5 +1,7 @@
 ---
+include_slideshow: true
 ---
+
 
 # {% include icon.html icon="fa-solid fa-brain" %}AT THE INTERSECTION OF NEUROSCIENCE & NEUROLOGY
 
