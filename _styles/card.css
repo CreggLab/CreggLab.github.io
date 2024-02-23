@@ -18,9 +18,11 @@
 }
 
 .card-image img {
-  aspect-ratio: 3/2;
-  object-fit: cover;
-  width: 100%;
+  width: 90%; /* Set image width to 90% of the card's width */
+  height: auto; /* Ensure the height adjusts to maintain the image's aspect ratio */
+  margin: 0 auto; /* Center the image horizontally within the card */
+  display: block; /* Treat the image as a block element to apply margin correctly */
+  border-radius: 10px; /* Adjust as needed to round the corners */
 }
 
 .card-text {
