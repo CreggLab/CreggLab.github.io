@@ -1,6 +1,6 @@
 ---
 title: Brainstem Circuits for 3D Movements
-subtitle: Vestibular Motor 
+subtitle: Vestibular Motor Actions
 solid: fa-solid fa-cube
 image: images/3d_movements2.jpg
 figcaption: Vector art adapted from Kravitz/SciDraw
