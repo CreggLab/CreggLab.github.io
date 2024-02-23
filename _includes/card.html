@@ -3,6 +3,16 @@
   
   <div class="card-text">
     {% if include.title %}
+     <a
+        {% if include.link %}
+          href="{{ include.link | relative_url }}"
+        {% endif %}
+        {% if include.tooltip %}
+          data-tooltip="{{ include.tooltip }}"
+        {% endif %}
+        class="card-title"
+        style="text-decoration: none; color: inherit;"  <!-- Inline styles to remove link appearance -->
+      >
          {{ include.title }}
     {% endif %}
 
