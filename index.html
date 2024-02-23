@@ -496,34 +496,14 @@
   
     <span class="dot"></span> 
   
+    <span class="dot"></span> 
+  
+    <span class="dot"></span> 
+  
 </div>
 
-<script>
-var slideIndex = 0;
-showSlides();
-
-function showSlides() {
-    var i;
-    var slides = document.getElementsByClassName("mySlides");
-    var dots = document.getElementsByClassName("dot");
-    for (i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";  
-    }
-    slideIndex++;
-    if (slideIndex > slides.length) { slideIndex = 1 }
-    slides[slideIndex-1].style.display = "block";  
-
-    // Reset all dots to inactive
-    for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active", "");
-    }
-    // Set the current dot to active
-    if (dots.length > 0) {
-        dots[slideIndex-1].className += " active";
-    }
-    setTimeout(showSlides, 3000); // Change image every 3 seconds
-}
-</script>
+<!-- Link to the external JavaScript file -->
+<script src="/scripts/slideshow2.js"></script>
 
 <div class="feature" data-flip="">
   <a href="/publications" class="feature-image" aria-label="Publications">
