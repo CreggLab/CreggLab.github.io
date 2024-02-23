@@ -6,5 +6,11 @@
 <!-- include all js in scripts folder -->
 {% assign scripts = site.static_files | where_exp: "file", "file.path contains '/_scripts'" %}
 {% for script in scripts %}
-  <script src="{{ script.path | relative_url }}"></script>
+  {% if script.path contains 'slideshow2.js' %}
+    {% if page.include_slideshow %}
+      <script src="{{ script.path | relative_url }}" defer></script>
+    {% endif %}
+  {% else %}
+    <script src="{{ script.path | relative_url }}" defer></script>
+  {% endif %}
 {% endfor %}
