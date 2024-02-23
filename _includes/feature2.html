@@ -9,7 +9,7 @@
           {% endif %}
           aria-label="{{ include.title | default: 'feature link' }}"
         >
-          <img src="{{ image | relative_url }}" style="width:100%; border-radius: 8px" loading="lazy" alt="{{ include.title | default: 'feature image' }}">
+          <img src="{{ image | strip | relative_url }}" style="width:100%; border-radius: 8px" loading="lazy" alt="{{ include.title | default: 'feature image' }}">
         </a>
       </div>
     {% endfor %}
