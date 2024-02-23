@@ -3,18 +3,7 @@
   
   <div class="card-text">
     {% if include.title %}
-      <a
-        {% if include.link %}
-          href="{{ include.link | relative_url }}"
-        {% endif %}
-        {% if include.tooltip %}
-          data-tooltip="{{ include.tooltip }}"
-        {% endif %}
-        class="card-title"
-        style="text-decoration: none;"
-      >
-        {{ include.title }}
-      </a>
+         {{ include.title }}
     {% endif %}
 
   <a
@@ -35,10 +24,10 @@
     {% if include.description %}
       {{ include.description | markdownify }}
     {% endif %}
-  </div>
 
-{% capture link_url %}{{ include.link | relative_url }}{% endcapture %}
-{% include button.html text="Read more" link=link_url %}
-  
+    {% capture link_url %}{{ include.link | relative_url }}{% endcapture %}
+    {% include button.html text="Read more" link=link_url %}
+    
+    </div>
 </div>
 
