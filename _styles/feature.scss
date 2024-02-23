@@ -54,28 +54,22 @@ $wrap: 800px;
 
 /* Additions to feature.scss */
 
-// Ensure the slideshow container fits within the feature-image constraints
 .slideshow-container {
   flex-shrink: 0;
-  width: 40%; // Inherit width from feature-image
-  overflow: hidden;
-  box-shadow: var(--shadow);
+  width: 40%; // Match the width of feature-image
+  overflow: hidden; // Hide overflow to maintain clean borders
+  box-shadow: var(--shadow); // Apply the same shadow for consistency
+  position: relative; // Ensure position is relative for absolutely positioned slides
 }
 
-// Style for individual slides
-.mySlides {
-  width: 100%; // Ensure each slide fills the container
-  position: absolute; // Stack slides on top of each other
-  border-radius: var(--rounded);
-  animation: fade 3s; // Apply the fade animation
-}
+.mySlides {display: none;}
 
-// Adjustments for dots container if necessary
+// Ensure the dots container is correctly positioned and styled
 .dot-container {
-  text-align: center;
   position: absolute;
-  bottom: 10px; // Adjust based on your design needs
-  width: 100%;
+  bottom: -25px; // Adjust based on your design needs, might need to position outside the slideshow container
+  width: 40%;
+  text-align: center;
 }
 
 .dot {
