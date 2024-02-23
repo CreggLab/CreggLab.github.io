@@ -35,8 +35,9 @@
     {% if include.description %}
       {{ include.description | markdownify }}
     {% endif %}
-  
   </div>
+
+{% include button.html type="email" text="Read more" link="{{ include.link | relaive_url }}" %}
   
 </div>
 
