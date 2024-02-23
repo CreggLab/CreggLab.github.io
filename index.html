@@ -476,7 +476,8 @@
   flex-shrink: 0;
   width: 40%; 
   overflow: hidden; 
-  box-shadow: var(--shadow); 
+  box-shadow: var(--shadow);
+  border-radius: var(--rounded);
   position: relative; 
 }
 
@@ -509,37 +510,40 @@
 </style>
 
 <div class="feature">
-  <div class="slideshow-container">
-    
-    
-      <div class="mySlides fade">
-        <a href="/research" aria-label="Our Research">
-          <img src="/images/wt_website.gif" style="width:100%;">
-        </a>
-      </div>
-    
-      <div class="mySlides fade">
-        <a href="/research" aria-label="Our Research">
-          <img src="/images/brainstems2.jpg" style="width:100%;">
-        </a>
-      </div>
-    
-      <div class="mySlides fade">
-        <a href="/research" aria-label="Our Research">
-          <img src="/images/sagittal_layered.jpg" style="width:100%;">
-        </a>
-      </div>
-    
-    <div class="dot-container" style="text-align:center">
-    
-      <span class="dot"></span> 
-    
-      <span class="dot"></span> 
-    
-      <span class="dot"></span> 
-    
+    <div style="flex-shrink: 0; width: 40%;">
+    <div class="slideshow-container">
+      
+      
+        <div class="mySlides fade">
+          <a href="/research" aria-label="Our Research">
+            <img src="/images/wt_website.gif" style="width:100%;">
+          </a>
+        </div>
+      
+        <div class="mySlides fade">
+          <a href="/research" aria-label="Our Research">
+            <img src="/images/brainstems2.jpg" style="width:100%;">
+          </a>
+        </div>
+      
+        <div class="mySlides fade">
+          <a href="/research" aria-label="Our Research">
+            <img src="/images/sagittal_layered.jpg" style="width:100%;">
+          </a>
+        </div>
+      
+    </div>
+    <div class="dot-container" style="text-align:center;">
+      
+        <span class="dot"></span> 
+      
+        <span class="dot"></span> 
+      
+        <span class="dot"></span> 
+      
     </div>
   </div>
+  
   <div class="feature-text">
     
       <p class="feature-title">Our Research</p>
