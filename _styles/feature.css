@@ -47,15 +47,16 @@
 }
 /* Additions to feature.scss */
 .slideshow-container {
-  width: 100%;
-  aspect-ratio: 3/2;
-  position: relative;
+  flex-shrink: 0;
+  width: 40%;
   overflow: hidden;
+  box-shadow: var(--shadow);
 }
 
 .mySlides {
   width: 100%;
   position: absolute;
+  border-radius: var(--rounded);
   animation: fade 3s;
 }
 
