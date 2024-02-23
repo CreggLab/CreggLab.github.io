@@ -1,5 +1,5 @@
 <div class="feature" {% if include.flip %}data-flip{% endif %}>
-  <div class="slideshow-container feature-image">
+  <div class="slideshow-container">
     {% assign images = include.images | split: ',' %}
     {% for image in images %}
       <div class="mySlides fade">
@@ -9,7 +9,7 @@
           {% endif %}
           aria-label="{{ include.title | default: 'feature link' }}"
         >
-          <img src="{{ image | strip | relative_url }}" style="width:100%; border-radius: 8px" loading="lazy" alt="{{ include.title | default: 'feature image' }}">
+          <img src="{{ image | strip | relative_url }}" style="width:100%;" }}">
         </a>
       </div>
     {% endfor %}
