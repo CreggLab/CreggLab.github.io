@@ -1,3 +1,9 @@
+<style>
+  .mySlides {
+    display: none;
+  }
+</style>
+
 <div class="feature" {% if include.flip %}data-flip{% endif %}>
   <div class="slideshow-container">
     {% assign images = include.images | split: ',' %}
