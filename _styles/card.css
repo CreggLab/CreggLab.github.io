@@ -45,10 +45,10 @@
   font-family: var(--heading);
   font-weight: var(--semi-bold);
   text-decoration: none; /* Ensures no underline */
-  color: inherit; /* Inherits the color from the parent, making it look like normal text */
+  /* color: inherit; Inherits the color from the parent, making it look like normal text */
 }
 .card-title:hover, .card-title:focus {
-  color: var(--text); /* Change to your normal link color on hover */
+  color: #007bff; /* Change to your normal link color on hover */
   text-decoration: none; /* Ensures no underline on hover */
 }
 
