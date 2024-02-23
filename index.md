@@ -23,7 +23,7 @@ Our research focuses on revealing the functional organization of brainstem motor
 
 {%
   include feature2.html
-  images="/images/wt_website.gif, /images/brainstems.jpg, /images/sagittal_layered.jpg" 
+  images="/images/wt_website.gif, /images/brainstems2.jpg, /images/sagittal_layered.jpg" 
   image="images/wt_website.gif"
   link="research"
   title="Our Research"
