@@ -56,16 +56,17 @@ $wrap: 800px;
 
 // Ensure the slideshow container fits within the feature-image constraints
 .slideshow-container {
-  width: 100%; // Inherit width from feature-image
-  aspect-ratio: 3 / 2; // Maintain aspect ratio if needed
-  position: relative; // For absolute positioning of children
-  overflow: hidden; // To hide the non-active slides
+  flex-shrink: 0;
+  width: 40%; // Inherit width from feature-image
+  overflow: hidden;
+  box-shadow: var(--shadow);
 }
 
 // Style for individual slides
 .mySlides {
   width: 100%; // Ensure each slide fills the container
   position: absolute; // Stack slides on top of each other
+  border-radius: var(--rounded);
   animation: fade 3s; // Apply the fade animation
 }
 
