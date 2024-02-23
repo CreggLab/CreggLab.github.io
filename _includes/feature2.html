@@ -2,6 +2,43 @@
   .mySlides {
     display: none;
   }
+
+.slideshow-container {
+  flex-shrink: 0;
+  width: 40%; // Match the width of feature-image
+  overflow: hidden; // Hide overflow to maintain clean borders
+  box-shadow: var(--shadow); // Apply the same shadow for consistency
+  position: relative; // Ensure position is relative for absolutely positioned slides
+}
+
+// Ensure the dots container is correctly positioned and styled
+.dot-container {
+  position: absolute;
+  bottom: -25px; // Adjust based on your design needs, might need to position outside the slideshow container
+  width: 40%;
+  text-align: center;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  cursor: pointer;
+}
+
+.active {
+  background-color: #717171;
+}
+
+// Include the fade animation if it's not globally defined
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
 </style>
 
 <div class="feature" {% if include.flip %}data-flip{% endif %}>
