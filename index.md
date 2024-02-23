@@ -9,7 +9,7 @@ The Cregg Lab will open July 1st, 2024 in the Departments of Neuroscience & Neur
 
 {% capture text %}
 
-Our research focuses on revealing the functional organization of brainstem motor circuits. Dive into our discoveries and see how the brain takes action!
+Our research aims to understand how brainstem motor circuits, which connect higher brain functions to the spinal cord for movement execution, are organized. This knowledge could lead to new treatments for movement disorders in humans.
 
 {%
   include button.html
