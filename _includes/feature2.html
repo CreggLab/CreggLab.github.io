@@ -12,7 +12,7 @@
 
 .dot-container {
   position: relative;
-  margin-top: 20px;
+  margin-top: 15px;
   text-align: center;
 }
 
@@ -38,7 +38,7 @@
 </style>
 
 <div class="feature" {% if include.flip %}data-flip{% endif %}>
-    <div style="flex-shrink: 0; width: 40%;">
+    <div style="flex-shrink: 0; width: 50%;">
     <div class="slideshow-container">
       {% assign images = include.images | split: ',' %}
       {% for image in images %}
