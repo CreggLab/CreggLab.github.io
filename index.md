@@ -34,7 +34,7 @@ The brainstem connects higher brain functions to the spinal cord for movement ex
 
 {% capture text %}
 
-Our research focuses on revealing the functional organization of brainstem motor circuits. Dive into our discoveries and see how the brain takes action!
+Dive into our discoveries and see how the brain takes action!
 
 {%
   include button.html
