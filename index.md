@@ -5,7 +5,7 @@ include_slideshow: true
 
 # {% include icon.html icon="fa-solid fa-brain" %}AT THE INTERSECTION OF NEUROSCIENCE & NEUROLOGY
 
-The Cregg Lab will open July 1st, 2024 in the Departments of Neuroscience & Neurology at University of Wisconsin-Madison. In the Cregg Lab, we will focus on understanding brainstem circuits and their critical role in motor control. Our team will employ cutting-edge techniques to dissect brainstem motor circuits in sophisticated anatomical, molecular, and functional detail. Our work will aim to enhance our comprehension of the neural circuitry controlling movement, and offer insights into movement disorders such as Parkinson’s disease.
+The Cregg Lab will open July 1st, 2024 in the Departments of Neuroscience & Neurology at the University of Wisconsin-Madison. In the Cregg Lab, we will focus on understanding brainstem circuits and their critical role in motor control. Our team will employ cutting-edge techniques to dissect brainstem motor circuits in sophisticated anatomical, molecular, and functional detail. Our work will aim to enhance our comprehension of the neural circuitry controlling movement, and offer insights into movement disorders such as Parkinson’s disease.
 
 ## Highlights
 
