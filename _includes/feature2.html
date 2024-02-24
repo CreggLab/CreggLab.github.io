@@ -3,47 +3,56 @@
     display: none;
   }
 
-.slideshow-container {
-  overflow: hidden; 
-  box-shadow: var(--shadow);
-  border-radius: var(--rounded);
-  position: relative; 
-}
+  .slideshow-container {
+    overflow: hidden; 
+    box-shadow: var(--shadow);
+    border-radius: var(--rounded);
+    position: relative; 
+  }
 
-.slideshow-container img, .slideshow-container .mySlides {
-  display: block; /* or inline-block with vertical-align set appropriately */
-  vertical-align: bottom; /* Adjusts alignment to prevent extra space */
-}
+  .slideshow-wrapper {
+    flex-shrink: 0;
+    width: 50%; /* Adjusted width */
+    /* Responsive adjustment for smaller screens */
+    @media (max-width: 800px) {
+      width: 100%; /* Slideshow takes full width on smaller screens */
+    }
+  }
 
-.dot-container {
-  position: relative;
-  margin-top: 15px;
-  text-align: center;
-}
+  .slideshow-container img, .slideshow-container .mySlides {
+    display: block;
+    vertical-align: bottom;
+  }
 
-.dot {
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-  cursor: pointer;
-}
+  .dot-container {
+    position: relative;
+    margin-top: 15px;
+    text-align: center;
+  }
 
-.active {
-  background-color: #717171;
-}
+  .dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    cursor: pointer;
+  }
 
-@keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
+  .active {
+    background-color: #717171;
+  }
+
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
 </style>
 
 <div class="feature" {% if include.flip %}data-flip{% endif %}>
-    <div style="flex-shrink: 0; width: 50%;">
+  <div class="slideshow-wrapper">
     <div class="slideshow-container">
       {% assign images = include.images | split: ',' %}
       {% for image in images %}
@@ -60,7 +69,6 @@
       {% endfor %}
     </div>
   </div>
-  
   <div class="feature-text">
     {% if include.title %}
       <p class="feature-title">{{ include.title }}</p>
@@ -68,6 +76,3 @@
     {{ include.text | markdownify }}
   </div>
 </div>
-
-
-
