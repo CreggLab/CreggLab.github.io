@@ -459,7 +459,7 @@
   
   
 
-  <section class="background" data-size="page">
+  <section class="background" data-size="/* appropriate size */">
     <h1 id="at-the-intersection-of-neuroscience--neurology">
 <i class="icon fa-solid fa-brain"></i>AT THE INTERSECTION OF NEUROSCIENCE &amp; NEUROLOGY</h1>
 
@@ -486,6 +486,11 @@
 
 .slideshow-container .mySlides:last-child {
   margin-bottom: 0;
+}
+
+.slideshow-container p, .slideshow-container span, /* any other text elements */ {
+  line-height: normal;
+  font-size: /* appropriate size */;
 }
 
 .dot-container {
