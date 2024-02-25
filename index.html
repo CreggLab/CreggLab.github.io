@@ -574,16 +574,123 @@
   </div>
 </div>
 
+<style>
+  .mySlides {
+    display: none;
+  }
+
+  .slideshow-container {
+    overflow: hidden; 
+    box-shadow: var(--shadow);
+    border-radius: var(--rounded);
+    position: relative; 
+  }
+
+  .slideshow-wrapper {
+    flex-shrink: 0;
+    width: 50%; /* Adjusted width */
+    /* Responsive adjustment for smaller screens */
+    @media (max-width: 800px) {
+      width: 100%; /* Slideshow takes full width on smaller screens */
+    }
+  }
+
+  .slideshow-container img, .slideshow-container .mySlides {
+    display: block;
+    vertical-align: bottom;
+  }
+
+  .dot-container {
+    position: relative;
+    margin-top: 15px;
+    text-align: center;
+  }
+
+  .dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    cursor: pointer;
+  }
+
+  .active {
+    background-color: #717171;
+  }
+
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+</style>
+
 <div class="feature" data-flip="">
-  <a href="/publications" class="feature-image" aria-label="Publications">
-    <img src="/images/papers.gif" loading="lazy" alt="Publications" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-  </a>
+  <div class="slideshow-wrapper">
+    <div class="slideshow-container">
+      
+      
+        <div class="mySlides fade">
+          <a href="/publications" aria-label="Publications">
+            <img src="/images/papers_1.jpg" style="width:100%;">
+          </a>
+        </div>
+      
+        <div class="mySlides fade">
+          <a href="/publications" aria-label="Publications">
+            <img src="/images/papers_2.jpg" style="width:100%;">
+          </a>
+        </div>
+      
+        <div class="mySlides fade">
+          <a href="/publications" aria-label="Publications">
+            <img src="/images/papers_3.jpg" style="width:100%;">
+          </a>
+        </div>
+      
+        <div class="mySlides fade">
+          <a href="/publications" aria-label="Publications">
+            <img src="/images/papers_4.jpg" style="width:100%;">
+          </a>
+        </div>
+      
+        <div class="mySlides fade">
+          <a href="/publications" aria-label="Publications">
+            <img src="/images/papers_5.jpg" style="width:100%;">
+          </a>
+        </div>
+      
+        <div class="mySlides fade">
+          <a href="/publications" aria-label="Publications">
+            <img src="/images/papers_6.jpg" style="width:100%;">
+          </a>
+        </div>
+      
+    </div>
+    <div class="dot-container" style="text-align:center;">
+      
+        <span class="dot"></span> 
+      
+        <span class="dot"></span> 
+      
+        <span class="dot"></span> 
+      
+        <span class="dot"></span> 
+      
+        <span class="dot"></span> 
+      
+        <span class="dot"></span> 
+      
+    </div>
+  </div>
   <div class="feature-text">
     
       <p class="feature-title">Publications</p>
     
     
-<p>Dive into our discoveries and see how the brain takes action!</p>
+<center>Dive into our discoveries and see how the brain takes action!</center>
 
 <div class="button-wrapper">
     <a class="button" href="/publications" data-style="" data-flip="" aria-label="fa-solid fa-arrow-right">
