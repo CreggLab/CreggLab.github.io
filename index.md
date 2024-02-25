@@ -1,5 +1,6 @@
 ---
-include_slideshow: true
+include_slideshow2: true
+include_slideshow3: true
 ---
 
 
