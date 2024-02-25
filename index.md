@@ -8,6 +8,8 @@ include_slideshow3: true
 
 The Cregg Lab will open July 1st, 2024 in the Departments of Neuroscience & Neurology at the University of Wisconsin-Madison. In the Cregg Lab, we will focus on understanding brainstem circuits and their critical role in motor control. Our team will employ cutting-edge techniques to dissect brainstem motor circuits in sophisticated anatomical, molecular, and functional detail. Our work will aim to enhance our comprehension of the neural circuitry controlling movement, and offer insights into movement disorders such as Parkinson’s disease.
 
+{% include section.html %}
+
 ## Highlights
 
 {% capture text %}
@@ -32,6 +34,8 @@ The brainstem connects higher brain functions to the spinal cord for movement ex
   text=text
 %}
 
+{% include section.html %}
+
 {% capture text %}
 
 <div style="text-align: center; margin-bottom: 30px;">Dive into our discoveries and see how the brain takes action!</div>
@@ -54,6 +58,8 @@ The brainstem connects higher brain functions to the spinal cord for movement ex
   flip=true
   text=text
 %}
+
+{% include section.html %}
 
 {% capture text %}
 
