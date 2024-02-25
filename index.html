@@ -581,119 +581,56 @@
 </div>
 
 <style>
-  .mySlides {
+  .mySlides3 {
     display: none;
   }
 
-  .slideshow-container {
+  .slideshow-container3 {
     overflow: hidden; 
     box-shadow: var(--shadow);
     border-radius: var(--rounded);
     position: relative; 
   }
 
-  .slideshow-wrapper {
+  .slideshow-wrapper3 {
     flex-shrink: 0;
-    width: 50%; /* Adjusted width */
-    /* Responsive adjustment for smaller screens */
-    @media (max-width: 800px) {
-      width: 100%; /* Slideshow takes full width on smaller screens */
-    }
+    width: 100%; /* Adjust width as needed */
   }
 
-  .slideshow-container img, .slideshow-container .mySlides {
+  .slideshow-container3 img {
     display: block;
-    vertical-align: bottom;
-  }
-
-  .dot-container {
-    position: relative;
-    margin-top: 15px;
-    text-align: center;
-  }
-
-  .dot {
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-    cursor: pointer;
-  }
-
-  .active {
-    background-color: #717171;
-  }
-  
-  /* Fading animation */
-  .fade {
-    animation-name: fade;
-    animation-duration: 3s;
-  }
-
-  @keyframes fade {
-    from {opacity: .4} 
-    to {opacity: 1}
+    width: 100%;
   }
 </style>
 
 <div class="feature" data-flip="">
-  <div class="slideshow-wrapper">
-    <div class="slideshow-container">
+  <div class="slideshow-wrapper3">
+    <div class="slideshow-container3">
       
       
-        <div class="mySlides fade">
-          <a href="/publications" aria-label="Publications">
-            <img src="/images/papers_1.jpg" style="width:100%;">
-          </a>
+        <div class="mySlides3">
+          <img src="/images/papers_1.jpg" style="width:100%;">
         </div>
       
-        <div class="mySlides fade">
-          <a href="/publications" aria-label="Publications">
-            <img src="/images/papers_2.jpg" style="width:100%;">
-          </a>
+        <div class="mySlides3">
+          <img src="/images/papers_2.jpg" style="width:100%;">
         </div>
       
-        <div class="mySlides fade">
-          <a href="/publications" aria-label="Publications">
-            <img src="/images/papers_3.jpg" style="width:100%;">
-          </a>
+        <div class="mySlides3">
+          <img src="/images/papers_3.jpg" style="width:100%;">
         </div>
       
-        <div class="mySlides fade">
-          <a href="/publications" aria-label="Publications">
-            <img src="/images/papers_4.jpg" style="width:100%;">
-          </a>
+        <div class="mySlides3">
+          <img src="/images/papers_4.jpg" style="width:100%;">
         </div>
       
-        <div class="mySlides fade">
-          <a href="/publications" aria-label="Publications">
-            <img src="/images/papers_5.jpg" style="width:100%;">
-          </a>
+        <div class="mySlides3">
+          <img src="/images/papers_5.jpg" style="width:100%;">
         </div>
       
-        <div class="mySlides fade">
-          <a href="/publications" aria-label="Publications">
-            <img src="/images/papers_6.jpg" style="width:100%;">
-          </a>
+        <div class="mySlides3">
+          <img src="/images/papers_6.jpg" style="width:100%;">
         </div>
-      
-    </div>
-    <div class="dot-container" style="text-align:center;">
-      
-        <span class="dot"></span> 
-      
-        <span class="dot"></span> 
-      
-        <span class="dot"></span> 
-      
-        <span class="dot"></span> 
-      
-        <span class="dot"></span> 
-      
-        <span class="dot"></span> 
       
     </div>
   </div>
