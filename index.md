@@ -48,7 +48,7 @@ Dive into our discoveries and see how the brain takes action!
 
 {%
   include feature.html
-  image="images/brainstems.jpg"
+  image="images/papers.gif"
   link="publications"
   title="Publications"
   flip=true
