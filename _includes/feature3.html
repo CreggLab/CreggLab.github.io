@@ -27,7 +27,9 @@
       {% assign images = include.images | split: ',' %}
       {% for image in images %}
         <div class="mySlides3">
-          <img src="{{ image | strip | relative_url }}" style="width:100%;">
+          <a href="{{ include.link | relative_url }}">
+            <img src="{{ image | strip | relative_url }}" style="width:100%;">
+          </a>
         </div>
       {% endfor %}
     </div>
@@ -39,3 +41,4 @@
     {{ include.text | markdownify }}
   </div>
 </div>
+
