@@ -602,6 +602,10 @@
   .slideshow-wrapper3 {
     flex-shrink: 0;
     width: 60%; /* Adjust width as needed */
+    /* Responsive adjustment for smaller screens */
+    @media (max-width: 800px) {
+    width: 100%; /* Slideshow takes full width on smaller screens */
+      }
   }
 
   .slideshow-container3 img {
