@@ -7,10 +7,15 @@
 {% assign scripts = site.static_files | where_exp: "file", "file.path contains '/_scripts'" %}
 {% for script in scripts %}
   {% if script.path contains 'slideshow2.js' %}
-    {% if page.include_slideshow %}
+    {% if page.include_slideshow2 %}
+      <script src="{{ script.path | relative_url }}" defer></script>
+    {% endif %}
+  {% elsif script.path contains 'slideshow3.js' %}
+    {% if page.include_slideshow3 %}
       <script src="{{ script.path | relative_url }}" defer></script>
     {% endif %}
   {% else %}
     <script src="{{ script.path | relative_url }}" defer></script>
   {% endif %}
 {% endfor %}
+
