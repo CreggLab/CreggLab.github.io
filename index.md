@@ -46,7 +46,7 @@ The brainstem connects higher brain functions to the spinal cord for movement ex
 {% endcapture %}
 
 {%
-  include feature2.html
+  include feature3.html
   images="/images/papers_1.jpg, /images/papers_2.jpg, /images/papers_3.jpg, /images/papers_4.jpg, /images/papers_5.jpg, /images/papers_6.jpg,"
   link="publications"
   title="Publications"
