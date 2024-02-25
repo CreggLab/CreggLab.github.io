@@ -13,7 +13,7 @@ function showSlides3() {
   slides3[slideIndex3 - 1].style.display = "block";
 
   // Set the timer for the next slide
-  setTimeout(showSlides3, 6000); // Change slide every 6 seconds
+  setTimeout(showSlides3, 8000); // Change slide every 6 seconds
 }
 
 // Start the slideshow
