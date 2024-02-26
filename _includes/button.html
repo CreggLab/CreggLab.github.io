@@ -5,7 +5,7 @@
   <div class="button-wrapper">
     <a
       class="button"
-      href="{{ button.link | replace: "$LINK", button.link | relative_url }}"
+      href="{{ button.link | replace: '$LINK', button.link | relative_url }}"
       {% if button.tooltip %}
         data-tooltip="{{ button.tooltip }}"
       {% endif %}
@@ -13,7 +13,10 @@
       {% if include.flip %}
         data-flip
       {% endif %}
-      aria-label="{{ button.tooltip | default: button.icon | default: "button" }}"
+      aria-label="{{ button.tooltip | default: button.icon | default: 'button' }}"
+      {% if include.new_tab %}
+        target="_blank" rel="noopener noreferrer"
+      {% endif %}
     >
       {% include icon.html icon=button.icon %}
       {% if button.text and button.text != "" %}
