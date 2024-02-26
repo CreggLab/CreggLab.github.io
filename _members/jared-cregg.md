@@ -16,6 +16,8 @@ My academic journey began with a Bachelor's degree in Biomedical Engineering fro
 
 Outside the laboratory, I find joy and balance in music and nature. As an amateur violinist, I love to draw connections between music and motor precision. Cross-country skiing offers a tranquil retreat into nature, with its rhythmic motions mirroring the coordination of movement central to my research.
 
+{% include button.html icon="fa-solid fa-arrow-left" text="Back to Team" link="https://cregglab.github.io/team/" %}
+
 {% include section.html %}
 
 {% capture col1 %}
