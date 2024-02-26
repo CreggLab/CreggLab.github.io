@@ -40,10 +40,15 @@ header a {
 
 .logo {
   height: $logo;
+  visibility: hidden; // Initially hide the logo
 }
 
 .logo > * {
   height: 100%;
+}
+
+.logo-ready {
+  visibility: visible; // Make the logo visible
 }
 
 .title {
