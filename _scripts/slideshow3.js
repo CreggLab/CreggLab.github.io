@@ -21,7 +21,7 @@ function showSlides3(n) {
 
   // Clear any existing timer and set a new one for the next slide
   clearTimeout(slideshow3Timer);
-  slideshow3Timer = setTimeout(function() { plusSlides3(1); }, 6000); // Change slide every 6 seconds
+  slideshow3Timer = setTimeout(function() { plusSlides3(1); }, 8000); // Change slide every 6 seconds
 }
 
 // Function to move to the next or previous slide
