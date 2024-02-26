@@ -602,6 +602,7 @@
   .slideshow-wrapper3 {
     flex-shrink: 0;
     width: 60%; /* Adjust width as needed */
+    margin: auto; /* Center the slideshow */
     /* Responsive adjustment for smaller screens */
     @media (max-width: 800px) {
       width: 100%; /* Slideshow takes full width on smaller screens */
@@ -629,10 +630,8 @@
     border-radius: 0 3px 3px 0;
   }
 
-  .next3 {
-    right: 0;
-    border-radius: 3px 0 0 3px;
-  }
+  .prev3 { left: 0; }
+  .next3 { right: 0; }
 
   .prev3:hover, .next3:hover {
     background-color: #f1f1f1;
