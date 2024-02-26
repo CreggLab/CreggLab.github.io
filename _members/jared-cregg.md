@@ -16,3 +16,19 @@ My academic journey began with a Bachelor's degree in Biomedical Engineering fro
 
 Outside the laboratory, I find joy and balance in music and nature. As an amateur violinist, I love to draw connections between music and motor precision. Cross-country skiing offers a tranquil retreat into nature, with its rhythmic motions mirroring the coordination of movement central to my research.
 
+{% include section.html %}
+
+{% capture col1 %}
+
+{% include figure.html image="images/DSC05337.jpg" caption="Jared and Juan Pineda (Allodi lab) perform Gliere's 8 pieces for violin and bass at the 2022 department holiday party" %}
+
+{% endcapture %}
+
+{% capture col2 %}
+
+{% include figure.html image="images/skiing.jpg" caption="Jared out skiing with his partner Angela" %}
+
+{% endcapture %}
+
+{% include cols.html col1=col1 col2=col2 %}
+
