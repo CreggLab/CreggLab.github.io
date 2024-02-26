@@ -28,7 +28,7 @@ Outside the laboratory, I find joy and balance in music and nature. As an amateu
 
 {% capture col2 %}
 
-{% include figure.html image="images/skiing.jpg" caption="Jared out skiing with his partner Angela" %}
+{% include figure.html image="images/skiing.jpg" caption="Jared out cross-country skiing with his partner Angela" %}
 
 {% endcapture %}
 
