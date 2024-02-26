@@ -28,10 +28,15 @@ header a {
 
 .logo {
   height: 50px;
+  visibility: hidden;
 }
 
 .logo > * {
   height: 100%;
+}
+
+.logo-ready {
+  visibility: visible;
 }
 
 .title {
