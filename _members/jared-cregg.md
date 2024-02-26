@@ -10,10 +10,9 @@ links:
   cv: https://cregglab.github.io/files/Cregg_CV.pdf
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Faucibus purus in massa tempor nec feugiat nisl pretium fusce.
-Elit at imperdiet dui accumsan.
-Duis tristique sollicitudin nibh sit amet commodo nulla facilisi.
-Vitae elementum curabitur vitae nunc sed velit dignissim sodales.
-Lacinia at quis risus sed vulputate odio ut.
-Magna eget est lorem ipsum.
+I recently launched my independent research program as an Assistant Professor in the Departments of Neuroscience and Neurology at the University of Wisconsin–Madison. My research is driven by a curiosity for how the nervous system orchestrates motor actions, focusing on decoding the functional organization of brainstem motor circuits. The aim is to map out the brainstem’s role in motor execution toward innovative treatments for movement disorders. This work has been recognized through awards including the Goldwater Scholarship and fellowships from the National Science Foundation (NSF), the European Molecular Biology Organization (EMBO), and the Lundbeck Foundation.
+
+My academic journey began with a Bachelor's degree in Biomedical Engineering from Michigan Technological University. In 2018, I earned my PhD in Neuroscience from Case Western Reserve University under the mentorship of Drs. Jerry Silver and Lynn T. Landmesser. My thesis work investigated brainstem circuits and the neural control of respiration through functional and molecular lenses. I then went on to do a postdoc with Prof. Ole Kiehn at the University of Copenhagen, where I further expanded my expertise in dissecting brainstem motor circuits to incorporate behavioral studies.
+
+Outside the laboratory, I find joy and balance in music and nature. As an amateur violinist, I love to draw connections between music and motor precision. Cross-country skiing offers a tranquil retreat into nature, with its rhythmic motions mirroring the coordination of movement central to my research.
+
