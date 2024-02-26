@@ -13,6 +13,9 @@ for (let i = 0; i < dots.length; i++) {
   });
 }
 
+// New code to reveal the slideshow container
+document.querySelector('.slideshow-container').style.opacity = 1;
+
 showSlides();
 
 function showSlides() {
