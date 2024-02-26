@@ -466,7 +466,7 @@
   
   
 
-  <section class="background" data-size="page">
+  <section class="background" data-size="18px">
     <h1 id="the-intersection-of-neuroscience--neurology">
 <i class="icon fa-solid fa-brain"></i>THE INTERSECTION OF NEUROSCIENCE &amp; NEUROLOGY</h1>
 
@@ -604,13 +604,39 @@
     width: 60%; /* Adjust width as needed */
     /* Responsive adjustment for smaller screens */
     @media (max-width: 800px) {
-    width: 100%; /* Slideshow takes full width on smaller screens */
-      }
+      width: 100%; /* Slideshow takes full width on smaller screens */
+    }
   }
 
   .slideshow-container3 img {
     display: block;
     width: 100%;
+  }
+
+  /* Navigation buttons */
+  .prev3, .next3 {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    user-select: none;
+    border-radius: 0 3px 3px 0;
+  }
+
+  .next3 {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+
+  .prev3:hover, .next3:hover {
+    background-color: #f1f1f1;
+    color: black;
   }
 </style>
 
@@ -655,6 +681,8 @@
           </a>
         </div>
       
+      <a class="prev3" onclick="plusSlides3(-1)">❮</a>
+      <a class="next3" onclick="plusSlides3(1)">❯</a>
     </div>
   </div>
   <div class="feature-text">
