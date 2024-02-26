@@ -25,6 +25,7 @@ The Cregg Lab is part of the School of Medicine and Public Health at the Univers
   include button.html
   type="address"
   tooltip="Our location on Google Maps for easy navigation"
+  new_tab=true
 link="https://www.google.com/maps/place/Wisconsin+Institutes+for+Medical+Research/@43.0785718,-89.4325161,18z/data=!4m6!3m5!1s0x8807ac8c9d660a89:0xeb2495dd9c8f32dd!8m2!3d43.078454!4d-89.4313729!16s%2Fg%2F11bx43r7g2?entry=ttu"
 %}
 
