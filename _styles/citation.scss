@@ -6,8 +6,6 @@ $wrap: 800px;
 
 .citation {
   display: flex;
-  margin: 15px 0 15px 15px;
-  padding-left: 20px;
   border-radius: var(--rounded);
   background: var(--background);
   overflow: hidden;
@@ -17,6 +15,7 @@ $wrap: 800px;
 .citation-image {
   position: relative;
   width: $thumb-size;
+  padding-left: 20px;
   flex-shrink: 0;
   // margin-left: 15px;
   // box-shadow: var(--shadow);
