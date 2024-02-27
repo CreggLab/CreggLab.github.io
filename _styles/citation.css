@@ -9,14 +9,13 @@
 .citation-image {
   position: relative;
   width: 180px;
-  padding-left: 15px;
   flex-shrink: 0;
 }
 
 .citation-image img {
   position: absolute;
-  inset: 0;
-  width: 100%;
+  inset: 0 0 0 15px;
+  width: calc(100% - 15px);
   height: 100%;
   object-fit: contain;
 }
