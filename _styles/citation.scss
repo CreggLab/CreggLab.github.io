@@ -15,16 +15,14 @@ $wrap: 800px;
 .citation-image {
   position: relative;
   width: $thumb-size;
-  padding-left: 15px;
   flex-shrink: 0;
-  // margin-left: 15px;
   // box-shadow: var(--shadow);
 }
 
 .citation-image img {
   position: absolute;
-  inset: 0;
-  width: 100%;
+  inset: 0 0 0 15px; // Top Right Bottom Left
+  width: calc(100% - 15px); // Reduce width to compensate for the shift
   height: 100%;
   object-fit: contain;
 }
