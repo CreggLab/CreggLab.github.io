@@ -6,6 +6,7 @@ $wrap: 800px;
 
 .citation {
   display: flex;
+  margin: 15px 0;
   border-radius: var(--rounded);
   background: var(--background);
   overflow: hidden;
@@ -21,8 +22,8 @@ $wrap: 800px;
 
 .citation-image img {
   position: absolute;
-  //inset: 0 0 0 15px; // Top Right Bottom Left
-  width: 100%; //calc(100% - 15px); // Reduce width to compensate for the shift
+  inset: 0 0 0 15px; // Top Right Bottom Left
+  width: calc(100% - 15px); // Reduce width to compensate for the shift
   height: 100%;
   object-fit: contain;
 }
