@@ -22,7 +22,7 @@ Outside the laboratory, I find joy and balance in music and nature. As an amateu
 
 {% capture col1 %}
 
-{% include figure.html image="images/DSC05337.jpg" caption="Jared and Juan Pineda (Allodi lab) perform Gliere's 8 pieces for violin and bass at the 2022 department holiday party" %}
+{% include figure.html image="images/DSC05337.jpg" caption="Jared and Juan Pineda (Allodi lab) perform at the 2022 department holiday party" %}
 
 {% endcapture %}
 
