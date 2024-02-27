@@ -6,8 +6,8 @@ $wrap: 800px;
 
 .citation {
   display: flex;
-  margin: 15px 0;
-  padding-left: 20px;
+  margin: 15px 0 15px 15px;
+  // padding-left: 20px;
   border-radius: var(--rounded);
   background: var(--background);
   overflow: hidden;
