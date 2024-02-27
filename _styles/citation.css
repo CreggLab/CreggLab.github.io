@@ -1,5 +1,6 @@
 .citation {
   display: flex;
+  margin: 15px 0;
   border-radius: var(--rounded);
   background: var(--background);
   overflow: hidden;
@@ -14,7 +15,8 @@
 
 .citation-image img {
   position: absolute;
-  width: 100%;
+  inset: 0 0 0 15px;
+  width: calc(100% - 15px);
   height: 100%;
   object-fit: contain;
 }
