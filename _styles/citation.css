@@ -15,8 +15,8 @@
 
 .citation-image img {
   position: absolute;
-  inset: 0 0 0 15px;
-  width: calc(100% - 15px);
+  inset: 0;
+  width: 100%;
   height: 100%;
   object-fit: contain;
 }
@@ -77,13 +77,10 @@
   margin: 0;
 }
 
-@media (max-width: 800px) {
-  .citation {
-    flex-direction: column;
-  }
-  .citation-image {
-    width: unset;
-    height: 180px;
+@media (min-width: 800px) {
+  .citation-image img {
+    inset: 0 0 0 15px;
+    width: calc(100% - 15px);
   }
 }
 
