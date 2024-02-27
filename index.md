@@ -12,7 +12,7 @@ The Cregg Lab will open July 1st, 2024 in the Departments of Neuroscience & Neur
 
 {% capture text %}
 
-The brainstem connects higher brain functions to the spinal cord for movement execution. Our research aims to understand how brainstem motor circuits are organized.  This knowledge could lead to new treatments for movement disorders in humans.
+<div style="text-align: center; margin-bottom: 30px;">The brainstem connects higher brain functions to the spinal cord for movement execution. Our research aims to understand how brainstem motor circuits are organized.  This knowledge could lead to new treatments for movement disorders in humans.</div>
 
 {%
   include button.html
@@ -57,7 +57,7 @@ The brainstem connects higher brain functions to the spinal cord for movement ex
 
 {% capture text %}
 
-Our team aims to harness the strength of diversity, welcoming individuals from varied backgrounds and skillsets toward an innovative research environment. 
+<div style="text-align: center; margin-bottom: 30px;">Our team aims to harness the strength of diversity, welcoming individuals from varied backgrounds and skillsets toward an innovative research environment.</div> 
 
 {%
   include button.html
