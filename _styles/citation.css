@@ -11,6 +11,7 @@
   position: relative;
   width: 180px;
   flex-shrink: 0;
+  margin-left: 15px;
 }
 
 .citation-image img {
