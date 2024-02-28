@@ -93,4 +93,9 @@ $wrap: 800px;
     width: unset;
     height: $thumb-size;
   }
+
+  .citation-image img {
+  inset: 0;
+  width: 100%;
+}
 }
