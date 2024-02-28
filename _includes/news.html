@@ -3,6 +3,7 @@
     <a
       {% if news.link %}
         href="{{ news.link | relative_url }}"
+        target="_blank"
       {% endif %}
       class="citation-image"
       aria-label="{{ news.title | default: 'news link' }}"
