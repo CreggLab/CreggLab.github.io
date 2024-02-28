@@ -85,6 +85,10 @@
     width: unset;
     height: 180px;
   }
+  .citation-image img {
+    inset: 0;
+    width: 100%;
+  }
 }
 
 /*# sourceMappingURL=citation.css.map */
