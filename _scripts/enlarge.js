@@ -1,4 +1,7 @@
 function enlargeImg() {
-   var element = document.getElementById("myTable");
-   element.classList.toggle("largetable");
+  // Only allow enlargement if screen width is greater than 800px
+  if (window.innerWidth > 800) {
+    var element = document.getElementById("myTable");
+    element.classList.toggle("largetable");
+  }
 }
