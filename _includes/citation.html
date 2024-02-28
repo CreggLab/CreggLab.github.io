@@ -5,6 +5,7 @@
     <a
       {% if citation.paperurl %}
         href="{{ citation.paperurl | relative_url }}"
+        target="_blank"  {# Add this line #}
       {% endif %}
       class="citation-image"
       aria-label="{{ citation.title | default: "citation link" }}"
