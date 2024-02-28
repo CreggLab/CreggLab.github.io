@@ -17,12 +17,13 @@ $wrap: 800px;
   position: relative;
   width: $thumb-size;
   flex-shrink: 0;
+  // box-shadow: var(--shadow);
 }
 
 .citation-image img {
   position: absolute;
-  inset: 0; // Default to no inset for mobile
-  width: 100%; // Full width for mobile
+  inset: 0 0 0 15px; // Top Right Bottom Left
+  width: calc(100% - 15px); // Reduce width to compensate for the shift
   height: 100%;
   object-fit: contain;
 }
@@ -83,9 +84,13 @@ $wrap: 800px;
   margin: 0;
 }
 
-@media (min-width: $wrap) { // Apply for screens wider than $wrap
-  .citation-image img {
-    inset: 0 0 0 15px; // Apply 15px inset from the left for larger screens
-    width: calc(100% - 15px); // Adjust width for the 15px inset
+@media (max-width: $wrap) {
+  .citation {
+    flex-direction: column;
+  }
+
+  .citation-image {
+    width: unset;
+    height: $thumb-size;
   }
 }
