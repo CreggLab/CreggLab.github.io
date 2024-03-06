@@ -15,7 +15,7 @@ Dive into our discoveries and see how the brain takes action!
 
   {% include search-info.html %}
 
-  {% include tags.html tags="highlighted,patents,locomotion,basal ganglia,Parkinson's disease,respiration,spinal cord injury" %}
+  {% include tags.html tags="key publications,patents,locomotion,basal ganglia,Parkinson's disease,respiration,spinal cord injury" %}
 
   {% include list2.html data="citations" component="citation" style="rich" %}
   
