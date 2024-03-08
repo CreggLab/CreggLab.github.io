@@ -6,7 +6,7 @@ aliases:
   - JM Cregg
   - Cregg JM
 links:
-  email: jared.cregg@gmail.com
+  email: jcregg@wisc.edu
   cv: https://cregglab.github.io/files/Cregg_CV.pdf
 ---
 
