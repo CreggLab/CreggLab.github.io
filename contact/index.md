@@ -58,7 +58,7 @@ link="https://www.google.com/maps/place/Wisconsin+Institutes+for+Medical+Researc
 {% capture col1 %}
 <strong>Inquiries:</strong>     
 Jared Cregg
-<br>jared.cregg@gmail.com
+<br>jcregg@wisc.edu
 {% endcapture %}
 
 {% capture col2 %}
