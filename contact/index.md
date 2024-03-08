@@ -12,8 +12,8 @@ The Cregg Lab is part of the School of Medicine and Public Health at the Univers
 {%
   include button.html
   type="email"
-  text="jared.cregg@gmail.com"
-  link="jared.cregg@gmail.com"
+  text="jcregg@wisc.edu"
+  link="jcregg@wisc.edu"
 %}
 {%
   include button.html
