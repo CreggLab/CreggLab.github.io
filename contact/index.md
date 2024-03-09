@@ -65,7 +65,8 @@ Jared Cregg
 <strong>Deliveries & Invoices:</strong>  
 Cregg Lab
 <br>Department of Neuroscience, UW-Madison
-<br>Room 5548 WIMR-II
+<br> 1111 Highland Avenue
+<br>Room 5533 WIMR-II
 <br>Madison WI 53705
 {% endcapture %}
 
