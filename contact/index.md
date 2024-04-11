@@ -67,7 +67,7 @@ Cregg Lab
 <br>Department of Neuroscience, UW-Madison
 <br> 1111 Highland Avenue
 <br>Room 5533 WIMR-II
-<br>Madison WI 53705
+<br>Madison WI 53705-2275
 {% endcapture %}
 
 {% capture col3 %}
