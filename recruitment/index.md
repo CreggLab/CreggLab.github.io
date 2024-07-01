@@ -15,11 +15,6 @@ The Cregg Lab recently opened in the Departments of Neuroscience & Neurology at 
 
 {% include section.html %}
 
-**Research Assistant**<br>
-We are seeking a Research Assistant with a strong foundation in the sciences to join our team. This position is perfect for recent graduates aiming to gain significant neuroscience research experience before pursuing graduate studies. The ideal candidate will be eager to make a meaningful contribution to our research projects over a 1-2 year period, with the goal of enhancing their skills and knowledge in preparation for advanced academic pursuits. This job will soon be posted at the <a href="https://jobs.wisc.edu/" target="_blank" style="text-decoration: none;"><strong>UW Jobs Portal</strong></a>.
-
-{% include section.html %}
-
 **Postdoctoral Candidates**<br>
 We are recruiting postdocs! Ideal candidates would have expertise in one or more of the following areas: rodent stereotaxic surgery, electrophysiology, Ca<sup>2+</sup> imaging, fiber photometry, molecular biology, or data analysis. Interested candidates should submit their CV and a brief statement of interest (under 500 words) to <a href="mailto:jcregg@wisc.edu" style="text-decoration: none;"><strong>Jared Cregg</strong></a>. We encourage applications from candidates of diverse backgrounds. 
 
