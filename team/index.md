@@ -9,13 +9,13 @@ nav:
 
 Our team aims to harness the strength of diversity, welcoming individuals from varied backgrounds and skillsets toward an innovative research environment. We aim to provide opportunities for growth and personal development, ensuring that unique perspectives contribute to our pursuit of scientific excellence.
 
-{% include list.html data="members" component="portrait" filters="role: pi" %}
-{% include list.html data="members" component="portrait" filters="role: tech" %}
-{% include list.html data="members" component="portrait" filters="role: postdoc" %}
-{% include list.html data="members" component="portrait" filters="role: phd" %}
-{% include list.html data="members" component="portrait" filters="role: undergrad" %}
-{% include list.html data="members" component="portrait" filters="role: programmer" %}
-{% include list.html data="members" component="portrait" filters="role: mascot" %}
+{% include list.html data="members/active" component="portrait" filters="role: pi" %}
+{% include list.html data="members/active" component="portrait" filters="role: tech" %}
+{% include list.html data="members/active" component="portrait" filters="role: postdoc" %}
+{% include list.html data="members/active" component="portrait" filters="role: phd" %}
+{% include list.html data="members/active" component="portrait" filters="role: undergrad" %}
+{% include list.html data="members/active" component="portrait" filters="role: programmer" %}
+{% include list.html data="members/active" component="portrait" filters="role: mascot" %}
 
 {% include section.html background="images/background.jpg" dark=true %}
 
