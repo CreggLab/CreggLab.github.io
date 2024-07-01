@@ -18,8 +18,8 @@ The Cregg Lab is part of the School of Medicine and Public Health at the Univers
 {%
   include button.html
   type="phone"
-  text="+1 608/400-7242"
-  link="+16084007242"
+  text="+1 608/265-9465"
+  link="+1608265-9465"
 %}
 {%
   include button.html
@@ -59,7 +59,7 @@ link="https://www.google.com/maps/place/Wisconsin+Institutes+for+Medical+Researc
 <strong>Inquiries:</strong>     
 Jared Cregg
 <br>jcregg@wisc.edu
-<br>+1 608/400-7242
+<br>+1 608/265-9465
 {% endcapture %}
 
 {% capture col2 %}
