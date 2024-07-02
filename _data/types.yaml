@@ -6,6 +6,18 @@ pi:
   icon: fa-solid fa-microscope
   description: Principal Investigator
 
+researcher3:
+  icon: fa-solid fa-glasses
+  description: Researcher III
+
+researcher2:
+  icon: fa-solid fa-glasses
+  description: Researcher II
+
+researcher1:
+  icon: fa-solid fa-glasses
+  description: Researcher II
+
 tech:
   icon: fa-solid fa-wand-magic-sparkles
   description: Research Assistant
