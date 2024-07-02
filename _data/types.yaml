@@ -16,7 +16,7 @@ researcher2:
 
 researcher1:
   icon: fa-solid fa-glasses
-  description: Researcher II
+  description: Researcher I
 
 tech:
   icon: fa-solid fa-wand-magic-sparkles
