@@ -24,15 +24,15 @@ tech:
 
 postdoc:
   icon: fa-solid fa-glasses
-  description: Postdoctoral Researcher
-
+  description: Postdoc
+  
 phd:
   icon: fa-solid fa-graduation-cap
   description: PhD Student
 
 undergrad:
   icon: fa-solid fa-user-graduate
-  description: Undergraduate Student
+  description: Undergraduate
 
 programmer:
   icon: fa-solid fa-code
