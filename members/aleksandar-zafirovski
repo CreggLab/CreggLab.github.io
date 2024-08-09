@@ -619,6 +619,23 @@
 
 <div>
   
+    
+    
+    
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="mailto:zafirovski@wisc.edu" data-tooltip="Email" data-style="bare" aria-label="Email" target="_blank" rel="noopener noreferrer">
+      <i class="icon fa-solid fa-envelope"></i>
+      
+        <span>Email</span>
+      
+    </a>
+  </div>
+
+<br />
+  
 </div>
 
 
