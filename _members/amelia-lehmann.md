@@ -1,6 +1,6 @@
 ---
 name: Amelia Lehmann
-image: images/photo.jpg
+image: images/amelia.jpg
 role: undergrad
 links:
   email: aelehmann2@wisc.edu
