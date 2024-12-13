@@ -1,5 +1,5 @@
 ---
-name: Open Position
+name: RA
 image: images/photo.jpg
 role: 
 ---
