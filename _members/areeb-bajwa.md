@@ -1,6 +1,6 @@
 ---
 name: Areeb Bajwa
-image: images/photo.jpg
+image: images/areeb.jpg
 role: undergrad
 links:
   email: atbajwa@wisc.edu
