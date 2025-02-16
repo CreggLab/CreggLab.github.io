@@ -29,7 +29,7 @@ Click <a href="https://cregglab.github.io/recruitment/" style="text-decoration: 
 {% capture content %}
 
 {% include figure.html image="images/DHL_1.jpg" %}
-{% include figure.html image="images/brainprize3.jpg" %}
+{% include figure.html image="images/skating_2025.jpg" %}
 {% include figure.html image="images/halloween2022.jpg" %}
 
 {% endcapture %}
