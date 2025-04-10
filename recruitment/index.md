@@ -4,7 +4,7 @@ title: Recruitment
 
 # {% include icon.html icon="fa-solid fa-users" %}How to Join Our Team
 
-The Cregg Lab recently opened in the Departments of Neuroscience & Neurology at University of Wisconsin-Madison. We are actively seeking talented individuals at all career levels. See below for more details on available openings, and feel free to reach out directly: 
+The Cregg Lab is based in the Departments of Neuroscience & Neurology at the University of Wisconsin–Madison. We’re always interested in hearing from exceptional candidates whose interests align with our work. See below for more details on available openings, and feel free to reach out directly: 
 
 {%
   include button.html
