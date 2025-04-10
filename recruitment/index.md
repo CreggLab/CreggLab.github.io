@@ -33,7 +33,7 @@ The Cregg Lab is excited to welcome PhD rotation students through the following 
 {% capture content %}
 
 {% include figure.html image="images/DHL_1.jpg" %}
-{% include figure.html image="images/brainprize3.jpg" %}
+{% include figure.html image="images/skating2025.jpg" %}
 {% include figure.html image="images/halloween2022.jpg" %}
 
 {% endcapture %}
