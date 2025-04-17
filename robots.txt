@@ -1,1 +1,1 @@
-Sitemap: /CreggLab.github.io/sitemap.xml
+Sitemap: /sitemap.xml
