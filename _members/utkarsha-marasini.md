@@ -1,6 +1,6 @@
 ---
 name: Utkarsha Marasini
-image: images/photo.jpg
+image: images/karsha.jpg
 role: undergrad
 links:
   email: marasini@wisc.edu
