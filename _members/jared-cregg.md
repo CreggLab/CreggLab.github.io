@@ -1,6 +1,6 @@
 ---
 name: Jared Cregg
-image: images/jared.jpg
+image: images/jared2.jpg
 role: pi
 aliases:
   - JM Cregg
