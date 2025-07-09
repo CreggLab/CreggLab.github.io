@@ -2,6 +2,7 @@
 name: Utkarsha Marasini
 image: images/karsha.jpg
 role: undergrad
+group: team
 links:
   email: marasini@wisc.edu
 ---
