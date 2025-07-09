@@ -2,6 +2,7 @@
 name: Anusha Shukla
 image: images/anusha.jpg
 role: phd
+group: team
 links:
   email: akshukla@wisc.edu
 ---
