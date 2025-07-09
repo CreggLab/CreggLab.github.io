@@ -9,16 +9,26 @@ nav:
 
 Our team aims to harness the strength of diversity, welcoming individuals from varied backgrounds and skillsets toward an innovative research environment. We aim to provide opportunities for growth and personal development, ensuring that unique perspectives contribute to our pursuit of scientific excellence.
 
-{% include list.html data="members" component="portrait" filters="role: pi" %}
-{% include list.html data="members" component="portrait" filters="role: researcher3" %}
-{% include list.html data="members" component="portrait" filters="role: researcher2" %}
-{% include list.html data="members" component="portrait" filters="role: researcher1" %}
-{% include list.html data="members" component="portrait" filters="role: tech" %}
-{% include list.html data="members" component="portrait" filters="role: postdoc" %}
-{% include list.html data="members" component="portrait" filters="role: phd" %}
-{% include list.html data="members" component="portrait" filters="role: undergrad" %}
-{% include list.html data="members" component="portrait" filters="role: programmer" %}
-{% include list.html data="members" component="portrait" filters="role: mascot" %}
+{% include list.html data="members" component="portrait" filters="role: 'pi' and group != 'alum'" %}
+{% include list.html data="members" component="portrait" filters="role: 'researcher3' and group != 'alum'" %}
+{% include list.html data="members" component="portrait" filters="role: 'researcher2' and group != 'alum'" %}
+{% include list.html data="members" component="portrait" filters="role: 'researcher1' and group != 'alum'" %}
+{% include list.html data="members" component="portrait" filters="role: 'tech' and group != 'alum'" %}
+{% include list.html data="members" component="portrait" filters="role: 'postdoc' and group != 'alum'" %}
+{% include list.html data="members" component="portrait" filters="role: 'phd' and group != 'alum'" %}
+{% include list.html data="members" component="portrait" filters="role: 'undergrad' and group != 'alum'" %}
+{% include list.html data="members" component="portrait" filters="role: 'programmer' and group != 'alum'" %}
+{% include list.html data="members" component="portrait" filters="role: 'mascot' and group != 'alum'" %}
+
+{% include section.html %}
+
+## Alumni
+
+Meet the former lab members who have helped drive our science forward. 
+
+{% include list.html data="members" component="portrait" filter="group == 'alum'" style="small" %}
+
+
 
 {% include section.html background="images/background.jpg" dark=true %}
 
