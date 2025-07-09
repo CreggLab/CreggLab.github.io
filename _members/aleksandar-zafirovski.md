@@ -2,6 +2,7 @@
 name: Aleksandar Zafirovski
 image: images/alek.jpg
 role: undergrad
+group: team
 links:
   email: zafirovski@wisc.edu
 ---
