@@ -2,6 +2,7 @@
 name: Areeb Bajwa
 image: images/areeb.jpg
 role: undergrad
+group: team
 links:
   email: atbajwa@wisc.edu
 ---
