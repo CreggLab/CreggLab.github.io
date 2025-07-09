@@ -20,6 +20,13 @@ Our team aims to harness the strength of diversity, welcoming individuals from v
 {% include list.html data="members" component="portrait" filters="role: 'programmer' and group != 'alum'" %}
 {% include list.html data="members" component="portrait" filters="role: 'mascot' and group != 'alum'" %}
 
+
+
+{% include section.html background="images/background.jpg" dark=true %}
+
+Click <a href="https://cregglab.github.io/recruitment/" style="text-decoration: none;"><strong>here</strong></a> for more information on current openings and how to apply. 
+
+
 {% include section.html %}
 
 ## Alumni
@@ -29,10 +36,6 @@ Meet the former lab members who have helped drive our science forward.
 {% include list.html data="members" component="portrait" filter="group == 'alum'" style="small" %}
 
 
-
-{% include section.html background="images/background.jpg" dark=true %}
-
-Click <a href="https://cregglab.github.io/recruitment/" style="text-decoration: none;"><strong>here</strong></a> for more information on current openings and how to apply. 
 
 {% include section.html %}
 
