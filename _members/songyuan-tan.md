@@ -2,6 +2,7 @@
 name: Songyuan Tan
 image: images/songyuan.jpg
 role: phd
+group: team
 links:
   email: stan94@wisc.edu
 ---
