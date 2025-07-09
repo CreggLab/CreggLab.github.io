@@ -2,6 +2,7 @@
 name: Jared Cregg
 image: images/jared2.jpg
 role: pi
+group: team
 aliases:
   - JM Cregg
   - Cregg JM
