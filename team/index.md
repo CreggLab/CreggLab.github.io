@@ -36,6 +36,19 @@ Meet the former lab members who have helped drive our science forward.
 
 {% include section.html %}
 
+
+{% capture content %}
+
+{% include figure.html image="images/DHL_1.jpg" %}
+{% include figure.html image="images/skating2025.jpg" %}
+{% include figure.html image="images/halloween2022.jpg" %}
+
+{% endcapture %}
+
+{% include grid.html style="square" content=content %}
+
+{% include section.html %}
+
 ## Funding
 
 {% capture content %}
@@ -54,18 +67,6 @@ Meet the former lab members who have helped drive our science forward.
 {% include grid.html content=content %}
 
 
-
-{% include section.html %}
-
-{% capture content %}
-
-{% include figure.html image="images/DHL_1.jpg" %}
-{% include figure.html image="images/skating2025.jpg" %}
-{% include figure.html image="images/halloween2022.jpg" %}
-
-{% endcapture %}
-
-{% include grid.html style="square" content=content %}
 
 {% include section.html %}
 
