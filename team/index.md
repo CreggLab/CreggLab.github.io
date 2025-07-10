@@ -66,7 +66,3 @@ Meet the former lab members who have helped drive our science forward.
 
 {% include grid.html content=content %}
 
-
-
-{% include section.html %}
-
