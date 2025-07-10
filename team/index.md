@@ -34,20 +34,6 @@ Meet the former lab members who have helped drive our science forward.
 
 {% include list.html data="members" component="portrait" group="alum" style="small" %}
 
-
-
-{% include section.html %}
-
-{% capture content %}
-
-{% include figure.html image="images/DHL_1.jpg" %}
-{% include figure.html image="images/skating2025.jpg" %}
-{% include figure.html image="images/halloween2022.jpg" %}
-
-{% endcapture %}
-
-{% include grid.html style="square" content=content %}
-
 {% include section.html %}
 
 ## Funding
@@ -66,3 +52,20 @@ Meet the former lab members who have helped drive our science forward.
 {% endcapture %}
 
 {% include grid.html content=content %}
+
+
+
+{% include section.html %}
+
+{% capture content %}
+
+{% include figure.html image="images/DHL_1.jpg" %}
+{% include figure.html image="images/skating2025.jpg" %}
+{% include figure.html image="images/halloween2022.jpg" %}
+
+{% endcapture %}
+
+{% include grid.html style="square" content=content %}
+
+{% include section.html %}
+
