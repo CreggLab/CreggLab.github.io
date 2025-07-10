@@ -32,7 +32,7 @@ Click <a href="https://cregglab.github.io/recruitment/" style="text-decoration: 
 
 Meet the former lab members who have helped drive our science forward. 
 
-{% include list.html data="members" component="portrait" group="team" style="small" %}
+{% include list.html data="members" component="portrait" group="alum" style="small" %}
 
 
 
