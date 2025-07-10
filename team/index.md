@@ -9,16 +9,16 @@ nav:
 
 Our team aims to harness the strength of diversity, welcoming individuals from varied backgrounds and skillsets toward an innovative research environment. We aim to provide opportunities for growth and personal development, ensuring that unique perspectives contribute to our pursuit of scientific excellence.
 
-{% include list.html data="members" component="portrait" filter="group: team" filter="role: pi" %}
-{% include list.html data="members" component="portrait" filter="group: team" filter="role: researcher3" %}
-{% include list.html data="members" component="portrait" filter="group: team" filter="role: researcher2" %}
-{% include list.html data="members" component="portrait" filter="group: team" filter="role: researcher1" %}
-{% include list.html data="members" component="portrait" filter="group: team" filter="role: tech" %}
-{% include list.html data="members" component="portrait" filter="group: team" filter="role: postdoc" %}
-{% include list.html data="members" component="portrait" filter="group: team" filter="role: phd" %}
-{% include list.html data="members" component="portrait" filter="group: team" filter="role: undergrad" %}
-{% include list.html data="members" component="portrait" filter="group: team" filter="role: programmer" %}
-{% include list.html data="members" component="portrait" filter="group: team" filter="role: mascot" %}
+{% include list.html data="members" component="portrait" role="pi" group="team" %}
+{% include list.html data="members" component="portrait" role="researcher3" group="team" %}
+{% include list.html data="members" component="portrait" role="researcher2" group="team" %}
+{% include list.html data="members" component="portrait" role="researcher1" group="team" %}
+{% include list.html data="members" component="portrait" role="tech" group="team" %}
+{% include list.html data="members" component="portrait" role="postdoc" group="team" %}
+{% include list.html data="members" component="portrait" role="phd" %}
+{% include list.html data="members" component="portrait" role="undergrad" group="team" %}
+{% include list.html data="members" component="portrait" role="programmer" group="team" %}
+{% include list.html data="members" component="portrait" role="mascot" group="team" %}
 
 
 {% include section.html background="images/background.jpg" dark=true %}
@@ -32,7 +32,7 @@ Click <a href="https://cregglab.github.io/recruitment/" style="text-decoration: 
 
 Meet the former lab members who have helped drive our science forward. 
 
-{% include list.html data="members" component="portrait" filter="group: alum" style="small" %}
+{% include list.html data="members" component="portrait" group="team" style="small" %}
 
 
 
