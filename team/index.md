@@ -9,7 +9,7 @@ nav:
 
 Our team aims to harness the strength of diversity, welcoming individuals from varied backgrounds and skillsets toward an innovative research environment. We aim to provide opportunities for growth and personal development, ensuring that unique perspectives contribute to our pursuit of scientific excellence.
 
-{% include list.html data="members" component="portrait" filter="role: pi" filter="group: team" %}
+{% include list.html data="members" component="portrait" filter="group: team" filter="role: pi" %}
 {% include list.html data="members" component="portrait" filter="role: researcher3 and group: !alum" %}
 {% include list.html data="members" component="portrait" filter="role: researcher2 and group: !alum" %}
 {% include list.html data="members" component="portrait" filter="role: researcher1 and group: !alum" %}
