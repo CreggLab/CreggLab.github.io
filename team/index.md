@@ -47,3 +47,22 @@ Meet the former lab members who have helped drive our science forward.
 {% endcapture %}
 
 {% include grid.html style="square" content=content %}
+
+{% include section.html %}
+
+## Funding
+
+{% capture content %}
+[![Parkinson's Foundation](/images/PF_Logo.jpg)](https://www.parkinson.org/)
+
+[![Brain Research Foundation](/images/BRF_2500.jpg)](https://www.thebrf.org/)
+
+[![Lundbeck Foundation](/images/lundbeckfonden.png)](https://lundbeckfonden.com/en)
+
+[![European Molecular Biology Organization](/images/embo.png)](https://www.embo.org/)
+
+[![National Science Foundation](/images/nsf.jpg)](https://www.nsf.gov/)
+
+{% endcapture %}
+
+{% include grid.html content=content %}
