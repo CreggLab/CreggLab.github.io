@@ -2,8 +2,17 @@
 {% assign data = site.data[include.data]
   | default: site[include.data]
   | default: emptyarray
-  | data_filter: include.filter
 %}
+
+{% if include.role %}
+  {% assign data = data | where: "role", include.role %}
+{% endif %}
+{% if include.group %}
+  {% assign data = data | where: "group", include.group %}
+{% endif %}
+{% if include.exclude_group %}
+  {% assign data = data | reject: "group", include.exclude_group %}
+{% endif %}
 
 {% assign years = data
   | group_by_exp: "d", "d.date | date: '%Y'"
