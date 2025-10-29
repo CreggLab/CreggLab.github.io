@@ -41,7 +41,7 @@ Meet the former lab members who have helped drive our science forward.
 
 {% include figure.html image="images/DHL_1.jpg" %}
 {% include figure.html image="images/skating2025.jpg" %}
-{% include figure.html image="images/halloween2022.jpg" %}
+{% include figure.html image="images/halloween2025.jpg" %}
 
 {% endcapture %}
 
