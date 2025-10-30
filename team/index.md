@@ -7,7 +7,7 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-users" %}Team
 
-Our team aims to welcome individuals from varied backgrounds and skillsets toward an innovative research environment. We provide opportunities for growth and personal development as we work together toward scientific excellence.
+Our team welcomes individuals with varied skillsets toward an innovative research environment. Our team is committed to supporting professional growth and personal development while striving for scientific excellence.
 
 {% include list.html data="members" component="portrait" role="pi" group="team" %}
 {% include list.html data="members" component="portrait" role="researcher3" group="team" %}
