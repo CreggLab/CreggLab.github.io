@@ -1,5 +1,5 @@
 
-# CreggLab's Website
+# CreggLab Website
 
 Visit **[cregglab.github.io](https://cregglab.github.io)** 🚀
 
