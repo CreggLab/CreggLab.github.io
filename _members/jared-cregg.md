@@ -1,6 +1,6 @@
 ---
 name: Jared Cregg
-image: images/jared2.jpg
+image: images/jared3.jpg
 role: pi
 group: team
 aliases:
