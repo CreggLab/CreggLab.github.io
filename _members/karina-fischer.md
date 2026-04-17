@@ -1,6 +1,6 @@
 ---
 name: Karina Fischer
-image: images/karina.jpg
+image: images/karina2.jpg
 role: undergrad
 group: team
 links:
