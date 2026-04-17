@@ -1,6 +1,6 @@
 ---
 name: Xiaojie Cao
-image: images/xiaojie.jpg
+image: images/xiaojie2.jpg
 role: researcher3
 group: team
 aliases:
