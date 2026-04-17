@@ -1,6 +1,6 @@
 ---
 name: Danny Bader
-image: images/danny.jpg
+image: images/danny2.jpg
 role: phd
 group: team
 links:
