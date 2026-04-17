@@ -1,6 +1,6 @@
 ---
 name: Aleksandar Zafirovski
-image: images/alek.jpg
+image: images/alek2.jpg
 role: undergrad
 group: team
 links:
