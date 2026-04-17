@@ -1,6 +1,6 @@
 ---
 name: Utkarsha Marasini
-image: images/karsha.jpg
+image: images/karsha2.jpg
 role: undergrad
 group: team
 links:
