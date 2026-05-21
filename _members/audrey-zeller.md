@@ -1,6 +1,6 @@
 ---
 name: Audrey Zeller
-image: images/photo.jpg
+image: images/aazeller.jpg
 role: undergrad
 group: team
 links:
