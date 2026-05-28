@@ -1,6 +1,6 @@
 ---
 name: Tina (Yuhan) Yang
-image: images/photo.jpg
+image: images/tina.jpg
 role: undergrad
 group: team
 links:
