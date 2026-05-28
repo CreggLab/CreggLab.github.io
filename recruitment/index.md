@@ -34,7 +34,7 @@ We are excited to offer experimental research opportunities for undergraduate st
 
 {% capture content %}
 
-{% include figure.html image="images/DHL_1.jpg" %}
+{% include figure.html image="images/alek_dinner.jpg" %}
 {% include figure.html image="images/skating2025.jpg" %}
 {% include figure.html image="images/halloween2025.jpg" %}
 
