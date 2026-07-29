@@ -12,3 +12,8 @@ Motor circuits act as the basis of behavior. Motor control is organized across e
 ## Brainstem Circuits for Motor Control
 
 {% include list.html component="card" data="projects" filters="group: " style="small" %}
+
+## Tools
+
+{% include list.html component="card" data="tools" filters="group: " style="small" %}
+
