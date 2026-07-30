@@ -1,7 +1,7 @@
-- title: OpenField
-  description: A synchronized three-camera platform for measuring mouse locomotion and performing optogenetic perturbations.
-  image: images/openfield.jpg
-  link: https://github.com/CreggLab/OpenField
+# - title: OpenField
+#  description: A synchronized three-camera platform for measuring mouse locomotion and performing optogenetic perturbations.
+#  image: images/openfield.jpg
+#  link: https://github.com/CreggLab/OpenField
 
 - title: mesoSPIM-ultra
   description: Light-sheet imaging for long-range projectomics. Developed by Marko Pende, Fabian Voigt, and collaborators at MDIBL.
