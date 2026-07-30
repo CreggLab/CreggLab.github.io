@@ -34,14 +34,44 @@
         {% endif %}
     </div>
 
-      {% if citation.pdf %}
-        <div class="citation-buttons">
-          <a href="{{ citation.pdf }}" target="_blank" class="button">PDF</a>
-          {% if citation.data %}
-          <a href="{{ citation.data }}" target="_blank" class="button">DATA</a>
-          {% endif %}
-        </div>
-      {% endif %}
+      {% if citation.pdf or citation.data or citation.resources %}
+  <div class="citation-buttons">
+
+    {% if citation.pdf %}
+      <a
+        href="{{ citation.pdf }}"
+        target="_blank"
+        rel="noopener"
+        class="button"
+      >
+        PDF
+      </a>
+    {% endif %}
+
+    {% if citation.data %}
+      <a
+        href="{{ citation.data }}"
+        target="_blank"
+        rel="noopener"
+        class="button"
+      >
+        DATA
+      </a>
+    {% endif %}
+
+    {% for resource in citation.resources %}
+      <a
+        href="{{ resource.url }}"
+        target="_blank"
+        rel="noopener"
+        class="button"
+      >
+        {{ resource.title }}
+      </a>
+    {% endfor %}
+
+  </div>
+{% endif %}
     
   </div>
 </div>
