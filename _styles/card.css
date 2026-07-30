@@ -17,6 +17,15 @@
   width: 290px;
 }
 
+.card[data-style=very-small] {
+  width: calc(25% - 40px);
+  min-width: 210px;
+}
+
+.card[data-style=very-small] .card-image img {
+  box-shadow: none;
+}
+
 .card-image img {
   width: 66%; /* Set image width to 90% of the card's width */
   height: auto; /* Ensure the height adjusts to maintain the image's aspect ratio */
