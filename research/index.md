@@ -13,6 +13,6 @@ Motor circuits act as the basis of behavior. Motor control is organized across e
 
 {% include list.html component="card" data="projects" filters="group: " style="small" %}
 
-## Tools
+## Tools & Resources
 
 {% include list.html component="card" data="tools" style="very-small" %}
