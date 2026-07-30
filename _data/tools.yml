@@ -2,3 +2,8 @@
   description: A synchronized three-camera platform for measuring mouse locomotion and performing optogenetic perturbations.
   image: images/openfield.jpg
   link: https://github.com/CreggLab/OpenField
+
+- title: mesoSPIM-ultra
+  description: Light-sheet imaging for long-range projectomics. Developed by Marko Pende, Fabian Voigt, and collaborators at MDIBL.
+  image: images/mesoSPIM.jpg
+  link: https://github.com/mesoSPIM/mesoSPIM-hardware-documentation/wiki/mdibl_overview
