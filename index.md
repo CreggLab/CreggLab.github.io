@@ -4,9 +4,9 @@ include_slideshow3: true
 ---
 
 
-# {% include icon.html icon="fa-solid fa-brain" %}THE INTERSECTION OF NEUROSCIENCE & NEUROLOGY
+# {% include icon.html icon="fa-solid fa-brain" %}HOW THE BRAINSTEM TRANSFORMS INTENTION INTO ACTION
 
-The Cregg Lab is based in the Departments of Neuroscience & Neurology at the University of Wisconsin-Madison. In the Cregg Lab, we focus on understanding brainstem circuits and their critical role in motor control. Our team employs cutting-edge techniques to dissect brainstem motor circuits in sophisticated anatomical, molecular, and functional detail. Our work aims to enhance our comprehension of the neural circuitry controlling movement, and offer insights into movement disorders such as Parkinson’s disease.
+The Cregg Lab investigates the molecular and functional organization of brainstem circuits that generate specific components of movement, including speed, stop, and turn. We combine circuit manipulation, neural recording, quantitative behavior, and spatial transcriptomics to define how these circuits are organized, uncover the principles by which they control movement, and determine how their dysfunction contributes to movement disorders such as Parkinson’s disease.
 
 ## Highlights
 
