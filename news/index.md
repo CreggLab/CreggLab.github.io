@@ -15,6 +15,8 @@ Updates on our research, team, awards, and trainee accomplishments.
 * 7/2025 - Cregg Lab receives a Parkinson’s Foundation award
 * 6/2025 - Cregg Lab receives a Brain Research Foundation Seed Grant
 
+<br><br>
+
 # {% include icon.html icon="fa-solid fa-newspaper" %}In the Media
 Press releases, interviews, and coverage of our research and accomplishments.
 
