@@ -6,7 +6,16 @@ nav:
 ---
 
 # {% include icon.html icon="fa-solid fa-feather-pointed" %}News
+Updates on our research, team, awards, and trainee accomplishments.
 
-Our research aims to thoughtfully contribute to the field of neuroscience, focusing on meaningful outcomes beyond academic publications. We are committed to substantive trainee development, extending our research to real-world applications, and actively engaging in science communication to share our discoveries with both the community. Highlights of our broader impact are detailed below.
+* 6/2026 - Anusha Shukla passes her qualifying exam and advances to PhD candidacy
+* 5/2026 - Anusha Shukla wins the NTP Symposium Systems and Circuits poster competition
+* 5/2026 - Alek Zafirovski graduates and joins the Joshua Berke Lab at UCSF
+* 4/2026 - Jared Cregg receives the C.J. Herrick Award in Neuroanatomy
+* 7/2025 - Cregg Lab receives a Parkinson’s Foundation award
+* 6/2025 - Cregg Lab receives a Brain Research Foundation Seed Grant
+
+# {% include icon.html icon="fa-solid fa-feather-pointed" %}In the Media
+External press releases, interviews, and coverage of our research and accomplishments.
 
 {% include list3.html data="news" component="news" style="rich" %}
