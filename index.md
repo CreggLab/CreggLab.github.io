@@ -12,7 +12,7 @@ The Cregg Lab investigates the molecular and functional organization of brainste
 
 {% capture text %}
 
-The brainstem transforms signals from higher brain regions into commands for specific forms of movement, including walking, running, jumping, turning, stopping, backward locomotion, and changes in body orientation such as pitch and roll. Our research seeks to determine how circuits within the brainstem collectively implement what we call the Mammalian Locomotor Plan—a modular system for generating distinct forms of whole-body movements—and how disruption of these circuits contributes to human movement disorders.
+The brainstem contains circuits that transform signals from higher brain regions into commands for movement. We propose that these circuits collectively generate a broad repertoire of actions—including walk (forward/backward), run, jump, turn (left/right), stop, pitch, and roll—that constitute what we call the Mammalian Locomotor Plan, a modular system for distinct forms of whole-body movement.
 
 {%
   include button.html
