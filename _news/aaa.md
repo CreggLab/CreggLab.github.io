@@ -1,5 +1,5 @@
 ---
-title: "Jared receives C.J. Herrick Award in Neuroanatomy"
+title: "The American Association for Anatomy Announces their 2026 Recognition Award Winners"
 collection: news
 date: 2026-02-05
 venue: 'American Association for Anatomy'
