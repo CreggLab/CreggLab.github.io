@@ -4,7 +4,7 @@ image: images/amelia.jpg
 role: undergrad
 group: alum
 links:
-  email: aelehmann2@wisc.edu
+
 ---
 Amelia graduated from UW–Madison with majors in Biochemistry and Neurobiology (‘25) and went on to join Dmitri Simberg’s lab at CU Anschutz.
 
