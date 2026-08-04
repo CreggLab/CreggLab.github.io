@@ -3,8 +3,6 @@ name: Tina (Yuhan) Yang
 image: images/tina.jpg
 role: undergrad
 group: alum
-links:
-
 ---
 Tina was an undergraduate researcher in the Cregg Lab during summer 2026.
 
