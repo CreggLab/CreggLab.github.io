@@ -2,11 +2,11 @@
 name: Tina (Yuhan) Yang
 image: images/tina.jpg
 role: undergrad
-group: team
+group: alum
 links:
-  email: yyang756@wisc.edu
+
 ---
-Tina is an undergraduate researcher majoring in Biochemistry and Psychology ('27) at UW–Madison.
+Tina was an undergraduate researcher in the Cregg Lab during summer 2026.
 
 {% include button.html icon="fa-solid fa-arrow-left" text="Back to Team" link="https://cregglab.github.io/team/" %}
 
