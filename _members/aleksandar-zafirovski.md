@@ -4,7 +4,7 @@ image: images/alek2.jpg
 role: undergrad
 group: alum
 links:
-  email: zafirovski@wisc.edu
+
 ---
 Aleksandar graduated with a BS in Neurobiology ('26) at UW–Madison, and went on to UCSF as an RA in Joshua Berke's lab.
 
