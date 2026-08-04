@@ -9,7 +9,7 @@ nav:
 Updates on our research, team, awards, and trainee accomplishments.
 
 {% assign current_year = site.time | date: "%Y" | plus: 0 %}
-{% assign archive_before = current_year | minus: 2 %}
+{% assign archive_before = current_year | minus: 1 %}
 {% assign news_items = site.data.lab_news | sort: "date" | reverse %}
 
 {% for item in news_items %}
