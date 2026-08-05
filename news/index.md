@@ -16,7 +16,7 @@ Updates on our research, team, awards, and trainee accomplishments.
 {% for item in news_items -%}
   {% assign item_year = item.date | date: "%Y" | plus: 0 -%}
   {% if item_year >= archive_before -%}
-{{ item.date | date: "%-m/%Y" }} - {{ item.text }}<br>
+* {{ item.date | date: "%-m/%Y" }} - {{ item.text }}<br>
   {% endif -%}
 {% endfor %}
 
