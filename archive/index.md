@@ -4,7 +4,7 @@ title: News Archive
 
 # {% include icon.html icon="fa-solid fa-box-archive" %}News Archive
 
-Earlier updates from the Cregg Lab.
+Past updates from the Cregg Lab.
 
 {% assign current_year = site.time | date: "%Y" | plus: 0 %}
 {% assign archive_before = current_year | minus: 1 %}
