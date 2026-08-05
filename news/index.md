@@ -6,16 +6,17 @@ nav:
 ---
 
 # {% include icon.html icon="fa-solid fa-feather-pointed" %}News
-Updates on our research, team, awards, and trainee accomplishments.<br>
+Updates on our research, team, awards, and trainee accomplishments.
 
 {% assign current_year = site.time | date: "%Y" | plus: 0 %}
 {% assign archive_before = current_year | minus: 1 %}
 {% assign news_items = site.data.lab_news | sort: "date" | reverse %}
 
-{% for item in news_items %}
+<br>
+{% for item in news_items -%}
   {% assign item_year = item.date | date: "%Y" | plus: 0 -%}
   {% if item_year >= archive_before -%}
-* {{ item.date | date: "%-m/%Y" }} - {{ item.text }}<br>
+{{ item.date | date: "%-m/%Y" }} - {{ item.text }}<br>
   {% endif -%}
 {% endfor %}
 
