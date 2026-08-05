@@ -34,7 +34,7 @@ The brainstem contains circuits that transform signals from higher brain regions
 
 {% capture text %}
 
-Dive into our discoveries and see how the brain takes action!
+Explore our papers, preprints, patents, datasets, and open resources.
 
 {%
   include button.html
