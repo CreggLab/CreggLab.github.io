@@ -5,7 +5,7 @@ nav:
   tooltip: Lab news & updates
 ---
 
-{% include icon.html icon="fa-solid fa-feather-pointed" %}News
+# {% include icon.html icon="fa-solid fa-feather-pointed" %}News
 Updates on our research, team, awards, and trainee accomplishments.
 
 {% assign current_year = site.time | date: "%Y" | plus: 0 %}
@@ -15,7 +15,7 @@ Updates on our research, team, awards, and trainee accomplishments.
 {% for item in news_items %}
   {% assign item_year = item.date | date: "%Y" | plus: 0 %}
   {% if item_year >= archive_before %}
-{{ item.date | date: "%-m/%Y" }} - {{ item.text }}
+* {{ item.date | date: "%-m/%Y" }} - {{ item.text }}
   {% endif %}
 {% endfor %}
 
