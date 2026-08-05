@@ -49,7 +49,7 @@ Meet the former lab members who have helped drive our science forward.
 
 {% include section.html %}
 
-## Funding
+## Current and Prior Support
 
 {% capture content %}
 [![Parkinson's Foundation](/images/PF_Logo.jpg)](https://www.parkinson.org/)
