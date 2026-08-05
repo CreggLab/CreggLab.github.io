@@ -19,7 +19,7 @@ Updates on our research, team, awards, and trainee accomplishments.
 
 [View older lab news]({% link archive/index.md %})
 
-# {% include icon.html icon="fa-solid fa-newspaper" %}In the Media
+## {% include icon.html icon="fa-solid fa-newspaper" %}In the Media
 Press releases, interviews, and coverage of our research and accomplishments.
 
 {% include list3.html data="news" component="news" style="rich" %}
