@@ -12,11 +12,11 @@ Updates on our research, team, awards, and trainee accomplishments.
 {% assign archive_before = current_year | minus: 1 %}
 {% assign news_items = site.data.lab_news | sort: "date" | reverse %}
 
-{% for item in news_items -%}
-  {% assign item_year = item.date | date: "%Y" | plus: 0 -%}
-  {% if item_year >= archive_before -%}
-* {{ item.date | date: "%-m/%Y" }} - {{ item.text }}<br>
-  {% endif -%}
+{% for item in news_items %}
+{% assign item_year = item.date | date: "%Y" | plus: 0 %}
+{% if item_year >= archive_before %}
+* {{ item.date | date: "%-m/%Y" }} - {{ item.text }}
+{% endif %}
 {% endfor %}
 
 [View older lab news]({% link archive/index.md %})
