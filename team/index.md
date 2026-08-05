@@ -7,7 +7,7 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-users" %}Team
 
-Our team welcomes individuals with varied skillsets toward an innovative research environment. Our team is committed to supporting professional growth and personal development while striving for scientific excellence.
+Our team brings complementary strengths in circuit neuroscience, electrophysiology, engineering, quantitative behavior, and molecular profiling. We pair rigorous science with strong mentorship, professional development, and a collaborative lab environment.
 
 {% include list.html data="members" component="portrait" role="pi" group="team" %}
 {% include list.html data="members" component="portrait" role="researcher3" group="team" %}
