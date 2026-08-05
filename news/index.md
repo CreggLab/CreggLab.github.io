@@ -12,7 +12,7 @@ Updates on our research, team, awards, and trainee accomplishments.<br>
 {% assign archive_before = current_year | minus: 1 %}
 {% assign news_items = site.data.lab_news | sort: "date" | reverse %}
 
-{% for item in news_items -%}
+{% for item in news_items %}
   {% assign item_year = item.date | date: "%Y" | plus: 0 -%}
   {% if item_year >= archive_before -%}
 * {{ item.date | date: "%-m/%Y" }} - {{ item.text }}<br>
