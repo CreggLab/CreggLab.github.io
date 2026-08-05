@@ -9,10 +9,12 @@ nav:
 Updates on our research, team, awards, and trainee accomplishments.
 
 {% assign current_year = site.time | date: "%Y" | plus: 0 %}
-{% assign archive_before = current_year | minus: 1 %}
+{% assign current_month = site.time | date: "%m" | plus: 0 %}
+{% assign current_month_index = current_year | times: 12 | plus: current_month %}
+{% assign archive_before = current_month_index | minus: 17 %}
 {% assign news_items = site.data.lab_news | sort: "date" | reverse %}
 
-{% for item in news_items %}{% assign item_year = item.date | date: "%Y" | plus: 0 %}{% if item_year >= archive_before %}* {{ item.date | date: "%-m/%Y" }} - {{ item.text }}
+{% for item in news_items %}{% assign item_year = item.date | date: "%Y" | plus: 0 %}{% assign item_month = item.date | date: "%m" | plus: 0 %}{% assign item_month_index = item_year | times: 12 | plus: item_month %}{% if item_month_index >= archive_before %}* {{ item.date | date: "%-m/%Y" }} - {{ item.text }}
 {% endif %}{% endfor %}
 
 [View older lab news]({% link archive/index.md %})
