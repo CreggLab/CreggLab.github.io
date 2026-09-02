@@ -53,7 +53,7 @@ Meet the former lab members who have helped drive our science forward.
 
 {% capture content %}
 
-[![Edward Mallinckrodt, Jr. Foundation](/images/emjf.jpg)](https://emallinckrodtfoundation.org/)
+[![Edward Mallinckrodt, Jr. Foundation](/images/emjf2.jpg)](https://emallinckrodtfoundation.org/)
 
 [![Parkinson's Foundation](/images/PF_Logo.jpg)](https://www.parkinson.org/)
 
