@@ -52,6 +52,8 @@ Meet the former lab members who have helped drive our science forward.
 ## Current and Prior Support
 
 {% capture content %}
+[![Edward Mallinckrodt, Jr. Foundation](images/EMJF.jpg)](https://emallinckrodtfoundation.org/)
+
 [![Parkinson's Foundation](/images/PF_Logo.jpg)](https://www.parkinson.org/)
 
 [![Brain Research Foundation](/images/BRF_2500.jpg)](https://www.thebrf.org/)
