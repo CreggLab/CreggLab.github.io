@@ -26,7 +26,7 @@ The brainstem contains circuits that transform signals from higher brain regions
 
 {%
   include feature2.html
-  images="/images/wt_website.gif, /images/brainstems2.jpg, /images/sagittal_layered.jpg"
+  images="/images/wt_website.gif, /images/brainstems2.jpg, /images/sagittal_layered.jpg, /images/patch.jpg"
   link="research"
   title="Our Research"
   text=text
