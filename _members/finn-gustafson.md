@@ -1,6 +1,6 @@
 ---
 name: Finn Gustafson
-image: images/photo.jpg
+image: images/finn.jpg
 role: undergrad
 group: team
 links:
